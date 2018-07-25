@@ -1,0 +1,10 @@
+@include media-breakpoint-up(lg) {
+	.transform-perspective-right {
+		transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
+		box-shadow: 1px 1px 5px 0 rgba(26,26,67,.05),39px 62.5px 125px -25px rgba(50,50,93,.5),23.4px 37.5px 75px -37.5px rgba(0,0,0,.6);
+	}
+	.transform-perspective-left{
+		transform: scale(1.05) perspective(2910px) rotateY(12deg) rotateX(3deg) rotate(-2deg);
+		box-shadow: 1px 1px 5px 0 rgba(26,26,67,.05),39px 62.5px 125px -25px rgba(50,50,93,.5),23.4px 37.5px 75px -37.5px rgba(0,0,0,.6);
+	}
+}
