@@ -155,8 +155,10 @@
 
 <h2 id="social-media">Social Media</h2>
 
-<p>Twitter: <a href="https://twitter.com/CreativeTim">https://twitter.com/CreativeTim</a>
-Facebook: <a href="https://www.facebook.com/CreativeTim">https://www.facebook.com/CreativeTim</a>
-Dribbble: <a href="https://dribbble.com/creativetim">https://dribbble.com/creativetim</a>
-Google+: <a href="https://plus.google.com/+CreativetimPage">https://plus.google.com/+CreativetimPage</a>
-Instagram: <a href="https://www.instagram.com/CreativeTimOfficial">https://www.instagram.com/CreativeTimOfficial</a></p>
+<ul>
+  <li>Twitter: <a href="https://twitter.com/CreativeTim">https://twitter.com/CreativeTim</a></li>
+  <li>Facebook: <a href="https://www.facebook.com/CreativeTim">https://www.facebook.com/CreativeTim</a></li>
+  <li>Dribbble: <a href="https://dribbble.com/creativetim">https://dribbble.com/creativetim</a></li>
+  <li>Google+: <a href="https://plus.google.com/+CreativetimPage">https://plus.google.com/+CreativetimPage</a></li>
+  <li>Instagram: <a href="https://www.instagram.com/CreativeTimOfficial">https://www.instagram.com/CreativeTimOfficial</a></li>
+</ul>
