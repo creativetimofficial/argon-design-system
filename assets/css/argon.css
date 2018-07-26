@@ -18499,3 +18499,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     right: 10px;
     left: auto;
 }
+
+.about-us .about-office img {
+    margin: 20px 0;
+}
