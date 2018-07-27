@@ -2,7 +2,7 @@
 
 <p><img src="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg" alt="Product Gif" /></p>
 
-<p>Start your development with a Bootstrap 4 Design System inspired by Stripe. If you like Stripes’s beautiful design, typography and colors you will love this design system! It features a huge number of components that can help you create amazing websites.</p>
+<p>Start your development with a Design System for Bootstrap 4. It is open source, free and it features many components that can help you create amazing websites.</p>
 
 <h4 id="fully-coded-components">Fully Coded Components</h4>
 
@@ -102,10 +102,10 @@
 
 <p>At present, we officially aim to support the last two versions of the following browsers:</p>
 
-<p><img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64" /> 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64" /> 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64" /> 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64" /> 
+<p><img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64" />
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64" />
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64" />
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64" />
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64" /></p>
 
 <h2 id="resources">Resources</h2>
