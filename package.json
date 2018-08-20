@@ -32,5 +32,7 @@
     "postcss-flexbugs-fixes": "^3.3.1",
     "pump": "^3.0.0",
     "run-sequence": "^2.2.1"
-  }
+  },
+  "repository": "https://github.com/creativetimofficial/argon-design-system",
+  "license": "MIT"
 }
