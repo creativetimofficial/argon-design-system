@@ -58,7 +58,7 @@
   <link href="../assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
   <link href="../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <!-- Argon CSS -->
-  <link type="text/css" href="../assets/css/argon.min.css?v=1.0" rel="stylesheet">
+  <link type="text/css" href="../assets/css/argon.min.css?v=1.0.1" rel="stylesheet">
   <!-- Docs CSS -->
   <link type="text/css" href="../assets/css/docs.min.css" rel="stylesheet">
 </head>
@@ -71,7 +71,7 @@
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header class="header-global">
-    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light">
+    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div class="container">
         <a class="navbar-brand mr-lg-5" href="../index.html">
           <img src="../assets/img/brand/white.png">
@@ -109,7 +109,16 @@
                     </div>
                     <div class="media-body ml-3">
                       <h6 class="heading text-primary mb-md-1">Getting started</h6>
-                      <p class="description d-none d-md-inline-block mb-0">Get started with Bootstrap, the world's most popular framework for building responsive sites.</p>
+                      <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
+                    </div>
+                  </a>
+                  <a href="../docs/foundation/colors.html" class="media d-flex align-items-center">
+                    <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                      <i class="ni ni-palette"></i>
+                    </div>
+                    <div class="media-body ml-3">
+                      <h6 class="heading text-primary mb-md-1">Foundation</h6>
+                      <p class="description d-none d-md-inline-block mb-0">Learn more about colors, typography, icons and the grid system we used for Argon.</p>
                     </div>
                   </a>
                   <a href="../docs/components/alerts.html" class="media d-flex align-items-center">
@@ -118,7 +127,7 @@
                     </div>
                     <div class="media-body ml-3">
                       <h5 class="heading text-warning mb-md-1">Components</h5>
-                      <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
+                      <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
                     </div>
                   </a>
                 </div>
@@ -178,8 +187,8 @@
   <main>
     <div class="position-relative">
       <!-- shape Hero -->
-      <section class="section-shaped my-0">
-        <div class="shape shape-style-1 shape-default shape-skew">
+      <section class="section section-lg section-shaped pb-250">
+        <div class="shape shape-style-1 shape-default">
           <span></span>
           <span></span>
           <span></span>
@@ -190,7 +199,7 @@
           <span></span>
           <span></span>
         </div>
-        <div class="container shape-container d-flex">
+        <div class="container py-lg-md d-flex">
           <div class="col px-0">
             <div class="row">
               <div class="col-lg-6">
@@ -211,6 +220,12 @@
               </div>
             </div>
           </div>
+        </div>
+        <!-- SVG separator -->
+        <div class="separator separator-bottom separator-skew">
+          <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+          </svg>
         </div>
       </section>
       <!-- 1st Hero Variation -->
@@ -363,16 +378,8 @@
         </div>
       </div>
     </section>
-    <section class="section section section-shaped my-0 overflow-hidden">
-      <div class="shape shape-style-1 bg-gradient-warning shape-skew">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="container py-0">
+    <section class="section pb-0 bg-gradient-warning">
+      <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-lg-2 ml-lg-auto">
             <div class="position-relative pl-md-5">
@@ -388,7 +395,7 @@
               </div>
               <div class="pl-4">
                 <h4 class="display-3 text-white">Modern Interface</h4>
-                <p class="text-white">The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens.</p>
+                <p class="text-white">The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.</p>
               </div>
             </div>
             <div class="card shadow shadow-lg--hover mt-5">
@@ -401,7 +408,7 @@
                   </div>
                   <div class="pl-4">
                     <h5 class="title text-success">Awesome Support</h5>
-                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens.</p>
+                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.</p>
                     <a href="#" class="text-success">Learn more</a>
                   </div>
                 </div>
@@ -417,7 +424,7 @@
                   </div>
                   <div class="pl-4">
                     <h5 class="title text-warning">Modular Components</h5>
-                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens.</p>
+                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.</p>
                     <a href="#" class="text-warning">Learn more</a>
                   </div>
                 </div>
@@ -425,6 +432,12 @@
             </div>
           </div>
         </div>
+      </div>
+      <!-- SVG separator -->
+      <div class="separator separator-bottom separator-skew zindex-100">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
       </div>
     </section>
     <section class="section section-lg">
@@ -544,13 +557,7 @@
         </div>
       </div>
     </section>
-    <section class="section section-shaped my-0 overflow-hidden">
-      <div class="shape shape-style-3 bg-gradient-default shape-skew">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+    <section class="section section-lg bg-gradient-default">
       <div class="container pt-lg pb-300">
         <div class="row text-center justify-content-center">
           <div class="col-lg-10">
@@ -581,6 +588,12 @@
             <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
+      </div>
+      <!-- SVG separator -->
+      <div class="separator separator-bottom separator-skew zindex-100">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
       </div>
     </section>
     <section class="section section-lg pt-lg-0 section-contact-us">
@@ -634,33 +647,33 @@
               <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
               <div class="row justify-content-center">
                 <div class="col-lg-2 col-4">
-                  <a href="https://getbootstrap.com/" target="_blank" data-toggle="tooltip" data-original-title="Bootstrap 4 - Most popular front-end component library">
+                  <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" data-toggle="tooltip" data-original-title="Bootstrap 4 - Most popular front-end component library">
                     <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg" class="img-fluid">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://www.sketchapp.com/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Sketch - Digital design toolkit">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" class="img-fluid opacity-5">
+                  <a href=" https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" data-toggle="tooltip" data-original-title="Vue.js - The progressive javascript framework">
+                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://www.adobe.com/products/photoshop.html" data-toggle="tooltip" data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" class="img-fluid  opacity-5">
+                  <a href=" https://www.sketchapp.com/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Sketch - Digital design toolkit">
+                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://vuejs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Vue.js - The progressive javascript framework">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid opacity-5">
+                  <a href=" https://www.adobe.com/products/photoshop.html" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
+                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://angularjs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" class="img-fluid opacity-5">
+                  <a href=" https://angularjs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
+                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://reactjs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" class="img-fluid opacity-5">
+                  <a href=" https://angularjs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
+                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
               </div>
@@ -798,7 +811,7 @@
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
   </noscript>
   <!-- Argon JS -->
-  <script src="../assets/js/argon.min.js?v=1.0"></script>
+  <script src="../assets/js/argon.min.js?v=1.0.1"></script>
 </body>
 
 </html>

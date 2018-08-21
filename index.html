@@ -58,7 +58,7 @@
   <link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
   <link href="./assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <!-- Argon CSS -->
-  <link type="text/css" href="./assets/css/argon.min.css?v=1.0" rel="stylesheet">
+  <link type="text/css" href="./assets/css/argon.min.css?v=1.0.1" rel="stylesheet">
   <!-- Docs CSS -->
   <link type="text/css" href="./assets/css/docs.min.css" rel="stylesheet">
 </head>
@@ -71,7 +71,7 @@
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header class="header-global">
-    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light">
+    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div class="container">
         <a class="navbar-brand mr-lg-5" href="./index.html">
           <img src="./assets/img/brand/white.png">
@@ -109,7 +109,16 @@
                     </div>
                     <div class="media-body ml-3">
                       <h6 class="heading text-primary mb-md-1">Getting started</h6>
-                      <p class="description d-none d-md-inline-block mb-0">Get started with Bootstrap, the world's most popular framework for building responsive sites.</p>
+                      <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
+                    </div>
+                  </a>
+                  <a href="./docs/foundation/colors.html" class="media d-flex align-items-center">
+                    <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                      <i class="ni ni-palette"></i>
+                    </div>
+                    <div class="media-body ml-3">
+                      <h6 class="heading text-primary mb-md-1">Foundation</h6>
+                      <p class="description d-none d-md-inline-block mb-0">Learn more about colors, typography, icons and the grid system we used for Argon.</p>
                     </div>
                   </a>
                   <a href="./docs/components/alerts.html" class="media d-flex align-items-center">
@@ -118,7 +127,7 @@
                     </div>
                     <div class="media-body ml-3">
                       <h5 class="heading text-warning mb-md-1">Components</h5>
-                      <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
+                      <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
                     </div>
                   </a>
                 </div>
@@ -178,7 +187,8 @@
   <main>
     <div class="position-relative">
       <!-- Hero for FREE version -->
-      <section class="section-hero section-shaped my-0">
+      <section class="section section-lg section-hero section-shaped">
+        <!-- Background circles -->
         <div class="shape shape-style-1 shape-primary">
           <span class="span-150"></span>
           <span class="span-50"></span>
@@ -191,39 +201,36 @@
           <span class="span-50"></span>
           <span class="span-100"></span>
         </div>
-        <div class="container shape-container d-flex align-items-center">
+        <div class="container shape-container d-flex align-items-center py-lg">
           <div class="col px-0">
-            <div class="row justify-content-center align-items-center">
-              <div class="col-lg-7 text-center pt-lg">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 text-center">
                 <img src="./assets/img/brand/white.png" style="width: 200px;" class="img-fluid">
-                <p class="lead text-white mt-4 mb-5">A beautiful Design System for Bootstrap 4. It's Free and Open Source.</p>
-                <div class="btn-wrapper">
-                  <a href="#section-components" class="btn btn-info btn-icon mb-3 mb-sm-0" data-toggle="scroll">
-                    <span class="btn-inner--icon"><i class="fa fa-code"></i></span>
-                    <span class="btn-inner--text">Components</span>
-                  </a>
-                  <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-white btn-icon mb-3 mb-sm-0">
+                <p class="lead text-white">A beautiful Design System for Bootstrap 4. It's Free and Open Source.</p>
+                <div class="btn-wrapper mt-5">
+                  <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
                     <span class="btn-inner--text">Download HTML</span>
                   </a>
+                  <a href="https://github.com/creativetimofficial/argon-design-system" class="btn btn-lg btn-github btn-icon mb-3 mb-sm-0" target="_blank">
+                    <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
+                    <span class="btn-inner--text">
+                      <span class="text-warning">Star us</span> on Github</span>
+                  </a>
+                </div>
+                <div class="mt-5">
+                  <small class="text-white font-weight-bold mb-0 mr-2">*proudly coded by</small>
+                  <img src="./assets/img/brand/creativetim-white-slim.png" style="height: 28px;">
                 </div>
               </div>
             </div>
-            <div class="row align-items-center justify-content-around stars-and-coded">
-              <div class="col-sm-4">
-                <span class="text-white alpha-7 ml-3">Star us on</span>
-                <a href="https://github.com/creativetimofficial/argon-design-system" target="_blank" title="Support us on Github">
-                  <img src="./assets/img/brand/github-white-slim.png" style="height: 22px; margin-top: -3px">
-                </a>
-              </div>
-              <div class="col-sm-4 mt-4 mt-sm-0 text-right">
-                <span class="text-white alpha-7">Coded by</span>
-                <a href="https://www.creative-tim.com" target="_blank" title="Creative Tim - Premium Bootstrap Themes and Templates">
-                  <img src="./assets/img/brand/creativetim-white-slim.png" class="ml-3" style="height: 30px;">
-                </a>
-              </div>
-            </div>
           </div>
+        </div>
+        <!-- SVG separator -->
+        <div class="separator separator-bottom separator-skew zindex-100">
+          <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+          </svg>
         </div>
       </section>
     </div>
@@ -1513,8 +1520,8 @@
         </div>
       </div>
     </section>
-    <section class="section section-lg section-shaped overflow-hidden my-0">
-      <div class="shape shape-style-1 shape-default shape-skew">
+    <section class="section section-shaped">
+      <div class="shape shape-style-1 shape-default">
         <span></span>
         <span></span>
         <span></span>
@@ -1522,7 +1529,7 @@
         <span></span>
         <span></span>
       </div>
-      <div class="container py-0 pb-lg">
+      <div class="container py-md">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-5 mb-5 mb-lg-0">
             <h1 class="text-white font-weight-light">Bootstrap carousel</h1>
@@ -1556,6 +1563,12 @@
             </div>
           </div>
         </div>
+      </div>
+      <!-- SVG separator -->
+      <div class="separator separator-bottom separator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
       </div>
     </section>
     <section class="section section-lg section-nucleo-icons pb-250">
@@ -1599,8 +1612,8 @@
         </div>
       </div>
     </section>
-    <section class="section section-lg section-shaped overflow-hidden my-0">
-      <div class="shape shape-style-1 shape-default shape-skew">
+    <section class="section section-lg section-shaped">
+      <div class="shape shape-style-1 shape-default">
         <span></span>
         <span></span>
         <span></span>
@@ -1610,7 +1623,7 @@
         <span></span>
         <span></span>
       </div>
-      <div class="container shape-container py-0 pb-5">
+      <div class="container py-md">
         <div class="row row-grid justify-content-between align-items-center">
           <div class="col-lg-6">
             <h3 class="display-3 text-white">A beautiful Design System
@@ -1681,6 +1694,12 @@
           </div>
         </div>
       </div>
+      <!-- SVG separator -->
+      <div class="separator separator-bottom separator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
     </section>
     <section class="section section-lg">
       <div class="container">
@@ -1697,33 +1716,33 @@
               <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
               <div class="row justify-content-center">
                 <div class="col-lg-2 col-4">
-                  <a href="https://getbootstrap.com/" target="_blank" data-toggle="tooltip" data-original-title="Bootstrap 4 - Most popular front-end component library">
+                  <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" data-toggle="tooltip" data-original-title="Bootstrap 4 - Most popular front-end component library">
                     <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg" class="img-fluid">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://www.sketchapp.com/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Sketch - Digital design toolkit">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" class="img-fluid opacity-5">
+                  <a href=" https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" data-toggle="tooltip" data-original-title="Vue.js - The progressive javascript framework">
+                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://www.adobe.com/products/photoshop.html" data-toggle="tooltip" data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" class="img-fluid  opacity-5">
+                  <a href=" https://www.sketchapp.com/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Sketch - Digital design toolkit">
+                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://vuejs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Vue.js - The progressive javascript framework">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid opacity-5">
+                  <a href=" https://www.adobe.com/products/photoshop.html" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
+                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://angularjs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" class="img-fluid opacity-5">
+                  <a href=" https://angularjs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
+                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://reactjs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
-                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" class="img-fluid opacity-5">
+                  <a href=" https://angularjs.org/" target="_blank" data-toggle="tooltip" data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
+                    <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" class="img-fluid opacity-3">
                   </a>
                 </div>
               </div>
@@ -1865,7 +1884,7 @@
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
   </noscript>
   <!-- Argon JS -->
-  <script src="./assets/js/argon.min.js?v=1.0"></script>
+  <script src="./assets/js/argon.min.js?v=1.0.1"></script>
 </body>
 
 </html>
