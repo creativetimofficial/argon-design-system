@@ -7,6 +7,49 @@
   <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
   <title>Argon Design System - Free Design System for Bootstrap 4</title>
+  <!-- Extra details for Live View on GitHub Pages -->
+  <!-- Canonical SEO -->
+  <link rel="canonical" href="https://www.creative-tim.com/product/argon-design-system" />
+  <!--  Social tags      -->
+  <meta name="keywords" content="design system, bootstrap 4 design system, bootstrap 4 design, bootstrap 4 system, bootstrap 4, bootstrap 4 uit kit, bootstrap 4 kit, argon, argon ui kit, creative tim, html kit, html css template, web template, bootstrap, bootstrap 4, css3 template, frontend, responsive bootstrap template, bootstrap ui kit, responsive ui kit, argon design system">
+  <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="Argon - Free Design System for Bootstrap 4 by Creative Tim">
+  <meta itemprop="description" content="Start your development with a Design System for Bootstrap 4.">
+  <meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg">
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="product">
+  <meta name="twitter:site" content="@creativetim">
+  <meta name="twitter:title" content="Argon - Free Design System for Bootstrap 4 by Creative Tim">
+  <meta name="twitter:description" content="Start your development with a Design System for Bootstrap 4.">
+  <meta name="twitter:creator" content="@creativetim">
+  <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg">
+  <!-- Open Graph data -->
+  <meta property="fb:app_id" content="655968634437471">
+  <meta property="og:title" content="Argon - Free Design System for Bootstrap 4 by Creative Tim" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://demos.creative-tim.com/argon-design-system/index.html" />
+  <meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg" />
+  <meta property="og:description" content="Start your development with a Design System for Bootstrap 4." />
+  <meta property="og:site_name" content="Creative Tim" />
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NKDMSK6');
+  </script>
+  <!-- End Google Tag Manager -->
   <!-- Favicon -->
   <link href="../assets/img/brand/favicon.png" rel="icon" type="image/png">
   <!-- Fonts -->
@@ -15,14 +58,20 @@
   <link href="../assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
   <link href="../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <!-- Argon CSS -->
-  <link type="text/css" href="../assets/css/argon.css?v=1.0.0" rel="stylesheet">
+  <link type="text/css" href="../assets/css/argon.min.css?v=1.0.1" rel="stylesheet">
   <!-- Docs CSS -->
   <link type="text/css" href="../assets/css/docs.min.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Extra details for Live View on GitHub Pages -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header class="header-global">
-    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light">
+    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div class="container">
         <a class="navbar-brand mr-lg-5" href="../index.html">
           <img src="../assets/img/brand/white.png">
@@ -54,22 +103,31 @@
               </a>
               <div class="dropdown-menu dropdown-menu-xl">
                 <div class="dropdown-menu-inner">
-                  <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html" class="media d-flex align-items-center">
+                  <a href="../docs/getting-started/overview.html" class="media d-flex align-items-center">
                     <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                       <i class="ni ni-spaceship"></i>
                     </div>
                     <div class="media-body ml-3">
                       <h6 class="heading text-primary mb-md-1">Getting started</h6>
-                      <p class="description d-none d-md-inline-block mb-0">Get started with Bootstrap, the world's most popular framework for building responsive sites.</p>
+                      <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
                     </div>
                   </a>
-                  <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html" class="media d-flex align-items-center">
+                  <a href="../docs/foundation/colors.html" class="media d-flex align-items-center">
+                    <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                      <i class="ni ni-palette"></i>
+                    </div>
+                    <div class="media-body ml-3">
+                      <h6 class="heading text-primary mb-md-1">Foundation</h6>
+                      <p class="description d-none d-md-inline-block mb-0">Learn more about colors, typography, icons and the grid system we used for Argon.</p>
+                    </div>
+                  </a>
+                  <a href="../docs/components/alerts.html" class="media d-flex align-items-center">
                     <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
                       <i class="ni ni-ui-04"></i>
                     </div>
                     <div class="media-body ml-3">
                       <h5 class="heading text-warning mb-md-1">Components</h5>
-                      <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
+                      <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
                     </div>
                   </a>
                 </div>
@@ -127,7 +185,7 @@
     </nav>
   </header>
   <main>
-    <section class="section section-shaped section-lg my-0">
+    <section class="section section-shaped section-lg">
       <div class="shape shape-style-1 bg-gradient-default">
         <span></span>
         <span></span>
@@ -265,8 +323,63 @@
   <script src="../assets/vendor/popper/popper.min.js"></script>
   <script src="../assets/vendor/bootstrap/bootstrap.min.js"></script>
   <script src="../assets/vendor/headroom/headroom.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // $('a[href="#"]:not([data-toggle="dropdown])').click(function() {
+      // 	return false;
+      // })
+    })
+  </script>
+  <script>
+    $(document).ready(function() {
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-46172202-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+
+      // Facebook Pixel Code Don't Delete
+      ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+          n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window,
+        document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+
+      try {
+        fbq('init', '111649226022273');
+        fbq('track', "PageView");
+
+      } catch (err) {
+        console.log('Facebook Track Error:', err);
+      }
+
+    });
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
+  </noscript>
   <!-- Argon JS -->
-  <script src="../assets/js/argon.js?v=1.0.0"></script>
+  <script src="../assets/js/argon.min.js?v=1.0.1"></script>
 </body>
 
 </html>

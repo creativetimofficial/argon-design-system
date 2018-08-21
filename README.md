@@ -1,6 +1,6 @@
 <h1 id="argon-design-system"><a href="https://www.creative-tim.com/product/argon-design-system">Argon Design System</a></h1>
 
-<p><img src="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg?3345" alt="Product Gif" /></p>
+<p><img src="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg" alt="Product Gif" /></p>
 
 <p>Start your development with a Design System for Bootstrap 4. It is open source, free and it features many components that can help you create amazing websites.</p>
 
@@ -35,6 +35,23 @@
   <li><a href="#useful-links">Useful Links</a></li>
 </ul>
 
+<h2 id="versions">Versions</h2>
+
+<p>We are coding Argon Design System for this frameworks also. Chek’em out:</p>
+
+<ul>
+  <li><a href="https://www.creative-tim.com/product/vue-argon-design-system">Vue.js</a></li>
+</ul>
+
+<h3 id="coming-soon">Coming soon</h3>
+
+<ul>
+  <li>Angular</li>
+  <li>React</li>
+  <li>Sketch</li>
+  <li>Photoshop</li>
+</ul>
+
 <h2 id="demo">Demo</h2>
 
 <ul>
@@ -48,12 +65,26 @@
 
 <p><a href="https://demos.creative-tim.com/argon-design-system">View More</a></p>
 
-<h2 id="quick-start">Quick start</h2>
+<h2 id="download-and-installation">Download and Installation</h2>
 
 <ul>
-  <li><a href="https://github.com/creativetimofficial/argon-design-system/archive/master.zip">Download from Github</a>.</li>
-  <li><a href="https://www.creative-tim.com/product/argon-design-system">Download from Creative Tim</a>.</li>
-  <li>Clone the repo: <code class="highlighter-rouge">git clone https://github.com/creativetimofficial/argon-design-system.git</code>.</li>
+  <li><a href="https://github.com/creativetimofficial/argon-design-system/archive/master.zip">Download from Github</a></li>
+  <li>
+    <p><a href="https://www.creative-tim.com/product/argon-design-system">Download from Creative Tim</a></p>
+  </li>
+  <li>
+    <p>Install with Bower: <code class="highlighter-rouge">bower install argon-design-system</code></p>
+  </li>
+  <li>
+    <p>Install with Composer: <code class="highlighter-rouge">composer create-project creativetimofficial/argon-design-system</code></p>
+  </li>
+  <li>
+    <p>Clone from Github: <code class="highlighter-rouge">git clone {{ site.product.github_clone }}</code></p>
+  </li>
+  <li>
+    <p>Install with Npm: <code class="highlighter-rouge">npm i argon-design-system-free</code></p>
+  </li>
+  <li>Install with Yarn: <code class="highlighter-rouge">yarn add argon-design-system-free</code></li>
 </ul>
 
 <h2 id="documentation">Documentation</h2>
