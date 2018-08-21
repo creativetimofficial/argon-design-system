@@ -51,9 +51,13 @@
 <h2 id="quick-start">Quick start</h2>
 
 <ul>
+  <li>Install with npm: <code class="highlighter-rouge">npm i argon-design-system-free</code></li>
+  <li>Install with Yarn: <code class="highlighter-rouge">yarn add argon-design-system-free</code></li>
+  <li>Install with Bower: <code class="highlighter-rouge">bower install argon-design-system</code></li>
   <li><a href="https://github.com/creativetimofficial/argon-design-system/archive/master.zip">Download from Github</a>.</li>
   <li><a href="https://www.creative-tim.com/product/argon-design-system">Download from Creative Tim</a>.</li>
   <li>Clone the repo: <code class="highlighter-rouge">git clone https://github.com/creativetimofficial/argon-design-system.git</code>.</li>
+
 </ul>
 
 <h2 id="documentation">Documentation</h2>

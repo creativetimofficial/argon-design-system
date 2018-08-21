@@ -1,9 +1,9 @@
 {
-  "name": "argon-design-system",
+  "name": "argon-design-system-free",
   "version": "1.0.0",
   "description": "A beautiful Design System for Bootstrap 4. It's Free and Open Source.",
   "main": "gulpfile.js",
-  "author": "Creative Tim",
+  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -33,6 +33,14 @@
     "pump": "^3.0.0",
     "run-sequence": "^2.2.1"
   },
-  "repository": "https://github.com/creativetimofficial/argon-design-system",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/argon-design-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/argon-design-system.git"
+  },
+  "license": "MIT",
+  "homepage": "http://demos.creative-tim.com/argon-design-system/index.html"
 }
