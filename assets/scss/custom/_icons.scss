@@ -9,7 +9,7 @@
 
 .icon + .icon-text {
 	padding-left: 1rem;
-	width: calc(100% - $icon-size - 1);
+	width: calc(100% - #{$icon-size} - 1);
 }
 
 .icon-xl {

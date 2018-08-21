@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Argon Design System - v1.0.0
+* Argon Design System - v1.0.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system
@@ -44,7 +44,7 @@ $(document).ready(function() {
     // Headroom - show/hide navbar on scroll
     if($('.headroom')[0]) {
         var headroom  = new Headroom(document.querySelector("#navbar-main"), {
-            offset: 100,
+            offset: 300,
             tolerance : {
                 up : 30,
                 down : 30

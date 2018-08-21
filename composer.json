@@ -1,13 +1,13 @@
 {
-    "name": "creativetimofficial/argon-design-system",
-    "description": "A beautiful Design System for Bootstrap 4. It's Free and Open Source.",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Creative Tim",
-            "email": "hello@creative-tim.com"
-        }
-    ],
-    "require": {}
+  "name": "creativetimofficial/argon-design-system",
+  "description": "A beautiful Design System for Bootstrap 4. It's Free and Open Source.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Creative Tim",
+      "email": "support@creative-tim.com"
+    }
+  ],
+  "require": {}
 }

@@ -1,25 +1,23 @@
 {
   "name": "argon-design-system-free",
-  "homepage": "https://demos.creative-tim.com/argon-design-system/index.html",
+  "homepage": "https://demos.creative-tim.com/argon-design-system",
   "authors": [
-    "creative-tim"
+      "Creative Tim"
   ],
   "description": "A beautiful Design System for Bootstrap 4. It's Free and Open Source.",
   "main": "gulpfile.js",
   "keywords": [
-    "argon",
-    "system design",
-    "bootstrap",
-    "design",
-    "google",
-    "twitter"
+      "argon",
+      "system design",
+      "bootstrap",
+      "design",
+      "google",
+      "twitter"
   ],
   "license": "Creative TIM License",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+      "**/.*",
+      "node_modules",
+      "bower_components"
   ]
 }

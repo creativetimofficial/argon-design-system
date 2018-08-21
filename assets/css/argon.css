@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Argon Design System - v1.0.0
+* Argon Design System - v1.0.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system
@@ -495,7 +495,7 @@ h6,
 {
     font-family: inherit;
     font-weight: 400;
-    line-height: 1.3;
+    line-height: 1.5;
 
     margin-bottom: .5rem;
 
@@ -548,28 +548,28 @@ h6,
 {
     font-size: 3.3rem;
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 .display-2
 {
     font-size: 2.75rem;
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 .display-3
 {
     font-size: 2.1875rem;
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 .display-4
 {
     font-size: 1.6275rem;
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 hr
@@ -5247,7 +5247,7 @@ input[type='button'].btn-block
 
     display: flex;
 
-    padding: .5rem 1rem; 
+    padding: 1rem 1rem; 
 
     flex-wrap: wrap;
     align-items: center;
@@ -12589,30 +12589,6 @@ a.text-darker:focus
     }
 }
 
-@-ms-viewport
-{
-    width: device-width;
-}
-
-html
-{
-    box-sizing: border-box;
-
-    -ms-overflow-style: scrollbar;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-body
-{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-
-    color: #525f7f;
-    background-color: #fff;
-}
-
 iframe
 {
     border: 0;
@@ -13542,6 +13518,213 @@ button.section-darker:focus
 .opacity-10
 {
     opacity: 1 !important;
+}
+
+.top-0
+{
+    top: 0;
+}
+
+.right-0
+{
+    right: 0;
+}
+
+.bottom-0
+{
+    bottom: 0;
+}
+
+.left-0
+{
+    left: 0;
+}
+
+.top-1
+{
+    top: .25rem;
+}
+
+.right-1
+{
+    right: .25rem;
+}
+
+.bottom-1
+{
+    bottom: .25rem;
+}
+
+.left-1
+{
+    left: .25rem;
+}
+
+.top-2
+{
+    top: .5rem;
+}
+
+.right-2
+{
+    right: .5rem;
+}
+
+.bottom-2
+{
+    bottom: .5rem;
+}
+
+.left-2
+{
+    left: .5rem;
+}
+
+.top-3
+{
+    top: 1rem;
+}
+
+.right-3
+{
+    right: 1rem;
+}
+
+.bottom-3
+{
+    bottom: 1rem;
+}
+
+.left-3
+{
+    left: 1rem;
+}
+
+.top-4
+{
+    top: 1.5rem;
+}
+
+.right-4
+{
+    right: 1.5rem;
+}
+
+.bottom-4
+{
+    bottom: 1.5rem;
+}
+
+.left-4
+{
+    left: 1.5rem;
+}
+
+.top-5
+{
+    top: 3rem;
+}
+
+.right-5
+{
+    right: 3rem;
+}
+
+.bottom-5
+{
+    bottom: 3rem;
+}
+
+.left-5
+{
+    left: 3rem;
+}
+
+.top-sm
+{
+    top: 2rem;
+}
+
+.right-sm
+{
+    right: 2rem;
+}
+
+.bottom-sm
+{
+    bottom: 2rem;
+}
+
+.left-sm
+{
+    left: 2rem;
+}
+
+.top-md
+{
+    top: 4rem;
+}
+
+.right-md
+{
+    right: 4rem;
+}
+
+.bottom-md
+{
+    bottom: 4rem;
+}
+
+.left-md
+{
+    left: 4rem;
+}
+
+.top-lg
+{
+    top: 6rem;
+}
+
+.right-lg
+{
+    right: 6rem;
+}
+
+.bottom-lg
+{
+    bottom: 6rem;
+}
+
+.left-lg
+{
+    left: 6rem;
+}
+
+.top-xl
+{
+    top: 8rem;
+}
+
+.right-xl
+{
+    right: 8rem;
+}
+
+.bottom-xl
+{
+    bottom: 8rem;
+}
+
+.left-xl
+{
+    left: 8rem;
+}
+
+.center
+{
+    left: 50%;
+
+    transform: translateX(-50%);
 }
 
 .h-100vh
@@ -15265,7 +15448,7 @@ textarea[resize='horizontal']
 
 .icon + .icon-text
 {
-    width: calc(100% - $icon-size - 1); 
+    width: calc(100% - 3rem - 1); 
     padding-left: 1rem;
 }
 
@@ -15975,6 +16158,13 @@ textarea[resize='horizontal']
     letter-spacing: 0;
     text-transform: normal;
 }
+@media screen and (prefers-reduced-motion: reduce)
+{
+    .navbar-nav .nav-link
+    {
+        transition: none;
+    }
+}
 .navbar-nav .nav-link .nav-link-inner--text
 {
     margin-left: .25rem;
@@ -16011,10 +16201,6 @@ textarea[resize='horizontal']
 
 @media (min-width: 992px)
 {
-    .navbar-main
-    {
-        padding: 1rem 0;
-    }
     .navbar-nav .nav-item
     {
         margin-right: .5rem;
@@ -16981,16 +17167,13 @@ textarea[resize='horizontal']
 {
     .section-hero
     {
-        height: 100vh;
         min-height: 500px;
     }
 }
 
 .section-shaped
 {
-    position: relative; 
-
-    margin: 180px 0;
+    position: relative;
 }
 .section-shaped .stars-and-coded
 {
@@ -17013,9 +17196,7 @@ textarea[resize='horizontal']
 {
     position: relative;
 
-    height: 100%; 
-    padding-top: 6rem;
-    padding-bottom: 0rem;
+    height: 100%;
 }
 .section-shaped .shape.shape-skew + .container
 {
@@ -17032,12 +17213,12 @@ textarea[resize='horizontal']
 }
 .section-shaped .shape-skew
 {
-    transform: skewY(-8deg);
+    transform: skewY(-4deg);
     transform-origin: 0;
 }
 .section-shaped .shape-skew span
 {
-    transform: skew(8deg);
+    transform: skew(4deg);
 }
 .section-shaped .shape-primary
 {
@@ -17567,6 +17748,59 @@ textarea[resize='horizontal']
     pointer-events: none;
 }
 
+.separator
+{
+    position: absolute;
+    z-index: 1;
+    top: auto;
+    right: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 150px;
+
+    transform: translateZ(0);
+    pointer-events: none;
+}
+.separator svg
+{
+    position: absolute;
+
+    pointer-events: none;
+}
+
+.separator-top
+{
+    top: 0;
+    bottom: auto;
+}
+.separator-top svg
+{
+    top: 0;
+}
+
+.separator-bottom
+{
+    top: auto;
+    bottom: 0;
+}
+.separator-bottom svg
+{
+    bottom: 0;
+}
+
+.separator-inverse
+{
+    transform: rotate(180deg);
+}
+
+.separator-skew
+{
+    height: 60px;
+}
+
 p
 {
     font-size: 1rem;
@@ -17960,11 +18194,18 @@ article h5 + figure
 
 .headroom
 {
-    transition: all .15s ease;
+    transition: all .15s ease; 
 
-    background-color: inherit; 
+    background-color: inherit;
 
     will-change: transform;
+}
+@media screen and (prefers-reduced-motion: reduce)
+{
+    .headroom
+    {
+        transition: none;
+    }
 }
 
 .headroom--pinned
