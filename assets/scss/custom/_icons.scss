@@ -22,7 +22,7 @@
 }
 
 .icon-xl + .icon-text {
-	width: calc(100% - $icon-size-xl - 1);
+	width: calc(100% - #{$icon-size-xl} - 1);
 }
 
 .icon-lg {
@@ -35,7 +35,7 @@
 }
 
 .icon-lg + .icon-text {
-	width: calc(100% - $icon-size-lg - 1);
+	width: calc(100% - #{$icon-size-lg} - 1);
 }
 
 .icon-sm {
@@ -48,7 +48,7 @@
 }
 
 .icon-sm + .icon-text {
-	width: calc(100% - $icon-size-sm - 1);
+	width: calc(100% - #{$icon-size-sm} - 1);
 }
 
 
