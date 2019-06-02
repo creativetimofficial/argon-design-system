@@ -1,5 +1,194 @@
 .rtl {
-    body {
-        text-align: right;
+    text-align: right;
+
+    .mr-lg-5 {
+        margin-left: 3rem !important;
+        margin-right: 0px !important;
+    }
+
+    li.nav-item {
+        *.dropdown-menu {
+            text-align: right;
+            right: 0;
+            left: auto;
+            margin-right: 1rem !important;
+        }
+    }
+
+    .dropdown-menu {
+        &:before {
+            right: 30px;
+            left: auto;
+        }
+
+        .dropdown-menu-inner {
+            a {
+                *.ml-3 {
+                    margin-right: 1rem !important;
+                    margin-left: unset;
+                }
+
+            }
+        }
+
+    }
+
+    //form elements
+    .has-success,
+    .has-danger {
+
+        &:after,
+            {
+            left: 15px;
+            right: auto;
+        }
+
+    }
+
+    .input-group {
+        .form-control {
+
+            &:not(:first-child) {
+                padding-left: unset !important;
+                border-left: 1px solid #cad1d7;
+                border-right: 0;
+            }
+
+            &:not(:last-child) {
+                padding-left: unset !important;
+                border-right: 1px solid #cad1d7;
+                border-left: 0;
+                padding-right: 0.75rem;
+            }
+        }
+    }
+
+    .input-group-prepend {
+        margin-left: -$input-border-width;
+    }
+
+    .input-group-append {
+        margin-right: -$input-border-width;
+    }
+
+    .datepicker {
+        direction: rtl;
+    }
+}
+
+.ml-auto,
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+
+.mr-auto,
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: unset !important;
+}
+
+.ml-lg-auto,
+.mx-lg-auto {
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+
+.mr-lg-auto,
+.mx-lg-auto {
+    margin-left: auto !important;
+    margin-right: unset !important;
+}
+
+
+@mixin border-right-radius($radius) {
+    @if $enable-rounded {
+        border-top-left-radius: $radius;
+        border-bottom-left-radius: $radius;
+    }
+}
+
+@mixin border-left-radius($radius) {
+    @if $enable-rounded {
+        border-top-right-radius: $radius;
+        border-bottom-right-radius: $radius;
+    }
+}
+
+.input-group>.input-group-prepend>.btn,
+.input-group>.input-group-prepend>.input-group-text,
+.input-group>.input-group-append:not(:last-child)>.btn,
+.input-group>.input-group-append:not(:last-child)>.input-group-text,
+.input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle),
+.input-group>.input-group-append:last-child>.input-group-text:not(:last-child) {
+    @include border-right-radius(0);
+}
+
+.input-group>.input-group-append>.btn,
+.input-group>.input-group-append>.input-group-text,
+.input-group>.input-group-prepend:not(:first-child)>.btn,
+.input-group>.input-group-prepend:not(:first-child)>.input-group-text,
+.input-group>.input-group-prepend:first-child>.btn:not(:first-child),
+.input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child) {
+    @include border-left-radius(0);
+}
+
+.custom-control {
+    padding-right: $custom-control-gutter;
+}
+
+.form-control,
+.custom-select {
+    &:not(:last-child) {
+        @include border-right-radius(0);
+    }
+
+    &:not(:first-child) {
+        @include border-left-radius(0);
+    }
+}
+
+.custom-control-label {
+
+    // Background-color and (when enabled) gradient
+    &::before {
+        right: -$custom-control-gutter;
+    }
+
+    &::after {
+        right: -$custom-control-gutter;
+    }
+}
+
+.nav {
+    padding-right: 0;
+    padding-left: unset;
+}
+
+.nav-pills {
+    .nav-item:not(:last-child) {
+        padding-left: $nav-pills-space-x;
+        padding-right: unset;
+    }
+}
+
+
+.alert {
+    .alert-inner--icon {
+        margin-left: 1.25rem;
+        margin-right: auto;
+    }
+}
+
+.alert-dismissible {
+    .close {
+        top: 50%;
+        left: $alert-padding-x;
+    }
+}
+
+.modal-header {
+    .close {
+        margin: (-$modal-header-padding) auto (-$modal-header-padding) (-$modal-header-padding);
     }
 }
