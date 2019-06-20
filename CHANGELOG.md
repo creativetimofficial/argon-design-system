@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.0] 2018-07-25
+
+### Original Release
+
 ## [1.0.1] 2018-08-21
 
 - FIX: syntax error in _icons.scss
@@ -11,6 +15,10 @@
 
 - NEW: add npm, yarn, bower and composer for quick installation
 
-## [1.0.0] 2018-07-25
+## [1.1.0] 2019-06-20
 
-### Original Release
+- FIX: Responsive issues
+- FIX: Fixed import paths
+
+- UPDATE: Bootstrap 4.3.1
+- UPDATE: Plugins updated

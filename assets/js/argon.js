@@ -5,7 +5,7 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system
-* Copyright 2018 Creative Tim (https://www.creative-tim.com)
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md)
 
 * Coded by www.creative-tim.com
