@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Argon Design System - v1.0.1
+* Argon Design System - v1.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system
