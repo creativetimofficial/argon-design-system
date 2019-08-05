@@ -1,6 +1,6 @@
 <h1 id="argon-design-system"><a href="https://www.creative-tim.com/product/argon-design-system">Argon Design System</a></h1>
 
-<p><img src="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg" alt="Product Gif" /></p>
+<p><img src="https://raw.githack.com/creativetimofficial/public-assets/master/argon-design-system/argon-design-system.jpg" alt="Product Gif" /></p>
 
 <p>Start your development with a Design System for Bootstrap 4. It is open source, free and it features many components that can help you create amazing websites.</p>
 
@@ -79,7 +79,7 @@
     <p>Install with Composer: <code class="highlighter-rouge">composer create-project creativetimofficial/argon-design-system</code></p>
   </li>
   <li>
-    <p>Clone from Github: <code class="highlighter-rouge">git clone https://github.com/creativetimofficial/argon-design-system.git</code></p>
+    <p>Clone from Github: <code class="highlighter-rouge">git clone {{ site.product.github_clone }}</code></p>
   </li>
   <li>
     <p>Install with Npm: <code class="highlighter-rouge">npm i argon-design-system-free</code></p>
@@ -168,7 +168,7 @@
 
 <ul>
   <li>
-    <p>Copyright © 2018 Creative Tim (https://www.creative-tim.com)</p>
+    <p>Copyright © 2019 Creative Tim (https://www.creative-tim.com)</p>
   </li>
   <li>
     <p>Licensed under MIT (https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md)</p>
