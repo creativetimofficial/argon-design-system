@@ -2,19 +2,22 @@
   "name": "argon-design-system",
   "version": "1.1.0",
   "description": "A beautiful Design System for Bootstrap 4. It's Free and Open Source.",
-  "main": "gulpfile.js",
+  "keywords": [
+    "design",
+    "bootstrap",
+    "dashboard",
+    "infoviz"
+  ],
+  "homepage": "https://github.com/creativetimofficial/argon-design-system",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/argon-design-system/issues"
+  },
+  "license": "MIT",
   "author": "Creative Tim",
+  "main": "gulpfile.js",
+  "repository": "github.com:creativetimofficial/argon-design-system",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.24.4",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-imagemin": "^6.1.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-util": "^3.0.8"
   },
   "dependencies": {
     "del": "^5.1.0",
@@ -33,13 +36,13 @@
     "pump": "^3.0.0",
     "run-sequence": "^2.2.1"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-design-system/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-design-system.git"
-  },
-  "homepage": "https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.8"
+  }
 }
