@@ -1,4 +1,6 @@
-<h1 id="argon-design-system"><a href="https://www.creative-tim.com/product/argon-design-system">Argon Design System</a></h1>
+# [Argon Design System](https://www.creative-tim.com/product/argon-design-system) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/share?url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fargon-design-system&text=Argon%20Design%20System&via=creativetim&hashtags=argon%20%23designsystem)
+
+![version](https://img.shields.io/badge/version-1.1.0-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-design-system.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-design-system/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/argon-design-system.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-design-system/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 <p><img src="https://raw.githack.com/creativetimofficial/public-assets/master/argon-design-system/argon-design-system.jpg" alt="Product Gif" /></p>
 
@@ -20,78 +22,60 @@
 
 <p>If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.</p>
 
-<h2 id="table-of-contents">Table of Contents</h2>
+## Table of Contents
 
-<ul>
-  <li><a href="#demo">Demo</a></li>
-  <li><a href="#quick-start">Quick Start</a></li>
-  <li><a href="#documentation">Documentation</a></li>
-  <li><a href="#file-structure">File Structure</a></li>
-  <li><a href="#browser-support">Browser Support</a></li>
-  <li><a href="#resources">Resources</a></li>
-  <li><a href="#reporting-issues">Reporting Issues</a></li>
-  <li><a href="#technical-support-or-questions">Technical Support or Questions</a></li>
-  <li><a href="#licensing">Licensing</a></li>
-  <li><a href="#useful-links">Useful Links</a></li>
-</ul>
+* [Versions](#versions)
+* [Demo](#demo)
+* [Quick Start](#quick-start)
+* [Documentation](#documentation)
+* [File Structure](#file-structure)
+* [Browser Support](#browser-support)
+* [Resources](#resources)
+* [Reporting Issues](#reporting-issues)
+* [Licensing](#licensing)
+* [Useful Links](#useful-links)
 
-<h2 id="versions">Versions</h2>
+## Versions
 
-<p>We are coding Argon Design System for this frameworks also. Chek’em out:</p>
+[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/html-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/angular-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system-angular)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/vue-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/vue-argon-design-system)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system-react)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-native-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-react-native)[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/photoshop-logo.jpg" width="60" height="60" />](https://github.com/creativetimofficial/argon-design-system)[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/sketch-logo.jpg" width="60" height="60" />](https://github.com/creativetimofficial/argon-design-system)
 
-<ul>
-  <li><a href="https://www.creative-tim.com/product/vue-argon-design-system">Vue.js</a></li>
-</ul>
 
-<h3 id="coming-soon">Coming soon</h3>
 
-<ul>
-  <li>Angular</li>
-  <li>React</li>
-  <li>Sketch</li>
-  <li>Photoshop</li>
-</ul>
 
-<h2 id="demo">Demo</h2>
+| HTML | Angular | Vue  |
+| --- | --- | ---  |
+| [![Argon Design System  HTML](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system/argon-design-system.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system)  | [![Argon Design System  Angular](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-angular/argon-design-system-angular.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system-angular)  | [![Vue Argon Design System](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-design-system/vue-argon-design-system.jpg?raw=true)](https://www.creative-tim.com/product/vue-argon-design-system)
 
-<ul>
-  <li><a href="https://demos.creative-tim.com/argon-design-system">Index Page</a></li>
-  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/landing.html">Landing page</a></li>
-  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/profile.html">Profile Page</a></li>
-  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/login.html">Login Page</a></li>
-  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/register.html">Register Page</a></li>
-  <li><a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">Documentation</a></li>
-</ul>
+| React | React Native
+| ---  | --- | --- |
+| [![Argon Design System React](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-react/argon-design-system-react.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system-react) | [![Argon React Native](https://github.com/creativetimofficial/public-assets/blob/master/argon-react-native/arg-rn-thumbnail.jpg?raw=true)](https://demos.creative-tim.com/argon-react-native)
 
-<p><a href="https://demos.creative-tim.com/argon-design-system">View More</a></p>
+## Demo
 
-<h2 id="download-and-installation">Download and Installation</h2>
+| Buttons | Inputs | Navbars  |
+| --- | --- | ---  |
+| [![Buttons](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system/buttons.png?raw=true)](https://demos.creative-tim.com/argon-design-system/index.html#buttons)  | [![Inputs](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system/inputs.png?raw=true)](https://demos.creative-tim.com/argon-design-system/index.html#inputs)  | [![Navbar](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system/navbars.png?raw=true)](https://demos.creative-tim.com/argon-design-system/index.html#navigation)  
 
-<ul>
-  <li><a href="https://github.com/creativetimofficial/argon-design-system/archive/master.zip">Download from Github</a></li>
-  <li>
-    <p><a href="https://www.creative-tim.com/product/argon-design-system">Download from Creative Tim</a></p>
-  </li>
-  <li>
-    <p>Install with Bower: <code class="highlighter-rouge">bower install argon-design-system</code></p>
-  </li>
-  <li>
-    <p>Install with Composer: <code class="highlighter-rouge">composer create-project creativetimofficial/argon-design-system</code></p>
-  </li>
-  <li>
-    <p>Clone from Github: <code class="highlighter-rouge">git clone {{ site.product.github_clone }}</code></p>
-  </li>
-  <li>
-    <p>Install with Npm: <code class="highlighter-rouge">npm i argon-design-system-free</code></p>
-  </li>
-  <li>Install with Yarn: <code class="highlighter-rouge">yarn add argon-design-system-free</code></li>
-</ul>
+| Login Page | Landing Page | Profile Page  |
+| --- | --- | ---  |
+| [![Login Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-design-system/login-page.png?raw=true)](https://demos.creative-tim.com/argon-design-system/examples/login.html)  | [![Landing Page](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system/landing-page.png?raw=true)](https://demos.creative-tim.com/argon-design-system/examples/landing.html)  | [![Profile Page](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system/profile-page.png?raw=true)](https://demos.creative-tim.com/argon-design-system/examples/profile.html)  
 
-<h2 id="documentation">Documentation</h2>
+[View More](https://demos.creative-tim.com/argon-design-system/index.html)
+
+## Quick start
+
+- `npm i argon-design-system-free`
+- [Download from Github](https://github.com/creativetimofficial/argon-design-system/archive/master.zip).
+- [Download from Creative Tim](https://www.creative-tim.com/product/argon-design-system).
+- Install with [Bower](https://bower.io/): ```bower install argon-design-system```.
+- Clone the repo: `git clone https://github.com/creativetimofficial/argon-design-system.git`.
+
+
+## Documentation
 
 <p>The documentation for the Argon Design System is hosted at our <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">website</a>.</p>
 
-<h2 id="file-structure">File Structure</h2>
+## File Structure
 
 <p>Within the download you’ll find the following directories and files:</p>
 
@@ -129,67 +113,66 @@
 
 </code></pre></div></div>
 
-<h2 id="browser-support">Browser Support</h2>
+## Browser Support
 
-<p>At present, we officially aim to support the last two versions of the following browsers:</p>
+At present, we officially aim to support the last two versions of the following browsers:
 
-<p><img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64" />
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64" />
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64" />
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64" />
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64" /></p>
+<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64">
 
-<h2 id="resources">Resources</h2>
 
-<ul>
-  <li>Demo: <a href="https://demos.creative-tim.com/argon-design-system">https://demos.creative-tim.com/argon-design-system</a></li>
-  <li>Download: <a href="https://www.creative-tim.com/product/argon-design-system">https://www.creative-tim.com/product/argon-design-system</a></li>
-  <li>Documentation: <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html</a></li>
-  <li>License Agreement: <a href="https://www.creative-tim.com/license">https://www.creative-tim.com/license</a></li>
-  <li>Support: <a href="https://www.creative-tim.com/contact-us">https://www.creative-tim.com/contact-us</a></li>
-  <li>Issues: <a href="https://github.com/creativetimofficial/argon-design-system/issues">Github Issues Page</a></li>
-</ul>
+## Resources
 
-<h2 id="reporting-issues">Reporting Issues</h2>
 
-<p>We use GitHub Issues as the official bug tracker for the Argon Design System. Here are some advices for our users that want to report an issue:</p>
+- Demo: <https://demos.creative-tim.com/argon-design-system>
+- Download Page:<https://www.creative-tim.com/product/argon-design-system>
+- Documentation: <https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html>
+- License Agreement: <https://www.creative-tim.com/license>
+- Support: <https://www.creative-tim.com/contact-us>
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/argon-design-system/issues)
+- **Dashboards:**
 
-<ol>
-  <li>Make sure that you are using the latest version of the Argon Design System. Check the CHANGELOG from your copy on our <a href="https://www.creative-tim.com">website</a>.</li>
-  <li>Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.</li>
-  <li>Some issues may be browser specific, so specifying in what browser you encountered the issue might help.</li>
-</ol>
+| HTML | React | Vue  | Angular |
+| --- | --- | ---  | ---  |
+| [![Argon Dashboard  HTML](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard/argon-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard) | [![Argon Dashboard  React](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-react/argon-dashboard-react.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-react) | [![Vue Argon Dashboard](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-dashboard/vue-argon-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/vue-argon-dashboard)  | [![ Argon Dashboard Angular](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-angular/argon-dashboard-angular.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-angular)
 
-<h2 id="technical-support-or-questions">Technical Support or Questions</h2>
+| Asp.net | Node.js | Laravel | Nuxt.js
+| --- | --- |
+| [![Argon Dashboard Asp.net](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-aspnet/argon-dashboard-aspnet.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-asp-net) | [![Argon Dashboard Nodejs](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-nodejs/argon-dashboard-nodejs.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-nodejs) | [![Argon Dashboard Laravel](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-laravel/argon-dashboard-laravel.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-laravel) | [![Argon Dashboard PRO Nuxtjs](https://github.com/creativetimofficial/public-assets/blob/master/nuxt-argon-dashboard-pro/nuxt-argon-dashboard-pro.jpg?raw=true)](https://www.creative-tim.com/product/nuxt-argon-dashboard-pro)
 
-<p>If you have questions or need help integrating the product please <a href="https://www.creative-tim.com/contact-us">contact us</a> instead of opening an issue.</p>
+## Reporting Issues
 
-<h2 id="licensing">Licensing</h2>
+We use GitHub Issues as the official bug tracker for the Argon Design System. Here are some advices for our users that want to report an issue:
 
-<ul>
-  <li>
-    <p>Copyright © 2019 Creative Tim (https://www.creative-tim.com)</p>
-  </li>
-  <li>
-    <p>Licensed under MIT (https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md)</p>
-  </li>
-</ul>
+1. Make sure that you are using the latest version of the Argon Design System. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/?ref=ads-github-readme).
+2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
+3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-<h2 id="useful-links">Useful Links</h2>
 
-<ul>
-  <li><a href="https://www.creative-tim.com/bootstrap-themes">More products</a> from Creative Tim</li>
-  <li><a href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w">Tutorials</a></li>
-  <li><a href="https://www.creative-tim.com/bootstrap-themes/free">Freebies</a> from Creative Tim</li>
-  <li><a href="https://www.creative-tim.com/affiliates/new">Affiliate Program</a> (earn money)</li>
-</ul>
+## Licensing
 
-<h2 id="social-media">Social Media</h2>
+- Copyright 2018 Creative Tim (https://www.creative-tim.com/?ref=ads-github-readme)
 
-<ul>
-  <li>Twitter: <a href="https://twitter.com/CreativeTim">https://twitter.com/CreativeTim</a></li>
-  <li>Facebook: <a href="https://www.facebook.com/CreativeTim">https://www.facebook.com/CreativeTim</a></li>
-  <li>Dribbble: <a href="https://dribbble.com/creativetim">https://dribbble.com/creativetim</a></li>
-  <li>Google+: <a href="https://plus.google.com/+CreativetimPage">https://plus.google.com/+CreativetimPage</a></li>
-  <li>Instagram: <a href="https://www.instagram.com/CreativeTimOfficial">https://www.instagram.com/CreativeTimOfficial</a></li>
-</ul>
+- Licensed under MIT (https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md)
+
+## Useful Links
+
+- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=ads-github-readme) (earn money)
+- [Blog Creative Tim](http://blog.creative-tim.com/)
+- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=ads-github-readme) from Creative Tim
+- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=ads-github-readme) from Creative Tim
+- [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=ads-github-readme) from Creative Tim
+- [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=ads-github-readme) from Creative Tim
+- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=ads-github-readme) from Creative Tim
+- [More products](https://www.creative-tim.com/bootstrap-themes?ref=ads-github-readme) from Creative Tim
+- Check our Bundles [here](https://www.creative-tim.com/bundles?ref=ads-github-readme)
+
+### Social Media
+
+Twitter: <https://twitter.com/CreativeTim>
+
+Facebook: <https://www.facebook.com/CreativeTim>
+
+Dribbble: <https://dribbble.com/creativetim>
+
+Instagram: <https://www.instagram.com/CreativeTimOfficial>
