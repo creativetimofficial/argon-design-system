@@ -135,8 +135,8 @@ At present, we officially aim to support the last two versions of the following 
 | --- | --- | ---  | ---  |
 | [![Argon Dashboard  HTML](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard/argon-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard) | [![Argon Dashboard  React](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-react/argon-dashboard-react.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-react) | [![Vue Argon Dashboard](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-dashboard/vue-argon-dashboard.jpg?raw=true)](https://www.creative-tim.com/product/vue-argon-dashboard)  | [![ Argon Dashboard Angular](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-angular/argon-dashboard-angular.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-angular)
 
-| Asp.net | Node.js | Laravel | Nuxt.js
-| --- | --- |
+| Asp.net | Node.js | Laravel | Nuxt.js |
+| --- | --- | ---  | ---  |
 | [![Argon Dashboard Asp.net](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-aspnet/argon-dashboard-aspnet.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-asp-net) | [![Argon Dashboard Nodejs](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-nodejs/argon-dashboard-nodejs.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-nodejs) | [![Argon Dashboard Laravel](https://github.com/creativetimofficial/public-assets/blob/master/argon-dashboard-laravel/argon-dashboard-laravel.jpg?raw=true)](https://www.creative-tim.com/product/argon-dashboard-laravel) | [![Argon Dashboard PRO Nuxtjs](https://github.com/creativetimofficial/public-assets/blob/master/nuxt-argon-dashboard-pro/nuxt-argon-dashboard-pro.jpg?raw=true)](https://www.creative-tim.com/product/nuxt-argon-dashboard-pro)
 
 ## Reporting Issues
