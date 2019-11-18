@@ -47,7 +47,7 @@
 | [![Argon Design System  HTML](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system/argon-design-system.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system)  | [![Argon Design System  Angular](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-angular/argon-design-system-angular.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system-angular)  | [![Vue Argon Design System](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-design-system/vue-argon-design-system.jpg?raw=true)](https://www.creative-tim.com/product/vue-argon-design-system)
 
 | React | React Native
-| ---  | --- | --- |
+| ---  | --- |
 | [![Argon Design System React](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-react/argon-design-system-react.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system-react) | [![Argon React Native](https://github.com/creativetimofficial/public-assets/blob/master/argon-react-native/arg-rn-thumbnail.jpg?raw=true)](https://demos.creative-tim.com/argon-react-native)
 
 ## Demo
