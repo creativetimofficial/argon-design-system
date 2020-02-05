@@ -12,7 +12,6 @@
   width: 100%;
 
   > .form-control,
-  > .form-control-plaintext,
   > .custom-select,
   > .custom-file {
     position: relative; // For focus state's z-index
@@ -76,10 +75,6 @@
   .btn {
     position: relative;
     z-index: 2;
-
-    &:focus {
-      z-index: 3;
-    }
   }
 
   .btn + .btn,
@@ -104,7 +99,7 @@
   align-items: center;
   padding: $input-padding-y $input-padding-x;
   margin-bottom: 0; // Allow use of <label> elements by overriding our default margin-bottom
-  @include font-size($input-font-size); // Match inputs
+  font-size: $font-size-base; // Match inputs
   font-weight: $font-weight-normal;
   line-height: $input-line-height;
   color: $input-group-addon-color;
@@ -127,43 +122,28 @@
 // Remix the default form control sizing classes into new ones for easier
 // manipulation.
 
-.input-group-lg > .form-control:not(textarea),
-.input-group-lg > .custom-select {
-  height: $input-height-lg;
-}
-
 .input-group-lg > .form-control,
-.input-group-lg > .custom-select,
 .input-group-lg > .input-group-prepend > .input-group-text,
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
+  height: $input-height-lg;
   padding: $input-padding-y-lg $input-padding-x-lg;
-  @include font-size($input-font-size-lg);
+  font-size: $font-size-lg;
   line-height: $input-line-height-lg;
   @include border-radius($input-border-radius-lg);
 }
 
-.input-group-sm > .form-control:not(textarea),
-.input-group-sm > .custom-select {
-  height: $input-height-sm;
-}
-
 .input-group-sm > .form-control,
-.input-group-sm > .custom-select,
 .input-group-sm > .input-group-prepend > .input-group-text,
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
+  height: $input-height-sm;
   padding: $input-padding-y-sm $input-padding-x-sm;
-  @include font-size($input-font-size-sm);
+  font-size: $font-size-sm;
   line-height: $input-line-height-sm;
   @include border-radius($input-border-radius-sm);
-}
-
-.input-group-lg > .custom-select,
-.input-group-sm > .custom-select {
-  padding-right: $custom-select-padding-x + $custom-select-indicator-padding;
 }
 
 

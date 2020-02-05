@@ -7,8 +7,8 @@
 	font-size: 1rem;
 	border-radius: 50%;
 	height: 48px;
-	width: 48px;
-}
+	width: 48px; 
+} 
 
 .avatar img {
 	width: 100%;
@@ -31,14 +31,14 @@
 	font-size: $font-size-sm;
 }
 
-// Overlapped avatars
+// Overlapped avatars 
 
 .avatar-group {
 	.avatar {
 		position: relative;
 		z-index: 2;
 		border: 2px solid $card-bg;
-
+		
 		&:hover {
 			z-index: 3;
 		}
@@ -46,6 +46,6 @@
 
 	.avatar + .avatar {
 		margin-left: -1rem;
-
+		
 	}
 }

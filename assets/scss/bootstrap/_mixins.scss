@@ -2,12 +2,6 @@
 //
 // Used in conjunction with global variables to enable certain theme features.
 
-// Vendor
-@import "vendor/rfs";
-
-// Deprecate
-@import "mixins/deprecate";
-
 // Utilities
 @import "mixins/breakpoints";
 @import "mixins/hover";
