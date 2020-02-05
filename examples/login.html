@@ -1,18 +1,18 @@
 <!--
 
 =========================================================
-* Argon Design System - v1.1.0
+* Argon Design System - v1.1.1
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
+* Docs Page: https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md)
 
 =========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ -->
 <!DOCTYPE html>
 <html>
 
@@ -73,7 +73,9 @@
   <link href="../assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
   <link href="../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <!-- Argon CSS -->
-  <link type="text/css" href="../assets/css/argon.min.css?v=1.0.1" rel="stylesheet">
+  <link type="text/css" href="../assets/css/argon.min.css?v=1.1.1" rel="stylesheet">
+  <!-- Docs CSS -->
+  <link type="text/css" href="../assets/css/docs.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -106,7 +108,7 @@
           </div>
           <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+              <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
                 <i class="ni ni-ui-04 d-lg-none"></i>
                 <span class="nav-link-inner--text">Components</span>
               </a>
@@ -143,7 +145,7 @@
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+              <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
                 <i class="ni ni-collection d-lg-none"></i>
                 <span class="nav-link-inner--text">Examples</span>
               </a>
@@ -181,6 +183,12 @@
               </a>
             </li>
             <li class="nav-item d-none d-lg-block ml-lg-4">
+              <a href="https://www.creative-tim.com/product/argon-design-system-pro?ref=ads-upgrade-pro" target="_blank" class="btn btn-neutral btn-icon">
+                <span class="btn-inner--icon">
+                  <i class="fa fa-shopping-cart"></i>
+                </span>
+                <span class="nav-link-inner--text">Upgrade to PRO</span>
+              </a>
               <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
                   <i class="fa fa-cloud-download mr-2"></i>
@@ -292,7 +300,7 @@
       <div class="row align-items-center justify-content-md-between">
         <div class="col-md-6">
           <div class="copyright">
-            &copy; 2019 <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+            &copy; 2020 <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
           </div>
         </div>
         <div class="col-md-6">
@@ -328,6 +336,19 @@
   </script>
   <script>
     $(document).ready(function() {
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-46172202-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+
       // Facebook Pixel Code Don't Delete
       ! function(f, b, e, v, n, t, s) {
         if (f.fbq) return;
@@ -362,7 +383,7 @@
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
   </noscript>
   <!-- Argon JS -->
-  <script src="../assets/js/argon.min.js?v=1.0.1"></script>
+  <script src="../assets/js/argon.min.js?v=1.1.1"></script>
 </body>
 
 </html>
