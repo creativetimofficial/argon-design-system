@@ -1,27 +1,29 @@
 <!--
-
-=========================================================
-* Argon Design System Docs - v1.1.1
 =========================================================
 
-* Docs Page: https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html
+*  Argon Design System - v1.2.0
+
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-design-system
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md)
+
+* Coded by Creative Tim
 
 =========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- -->
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
-  <meta name="author" content="Creative Tim">
-  <title>Argon Design System - Free Design System for Bootstrap 4</title>
+  <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+  <title>
+    Buttons - Argon Design System by Creative Tim
+  </title>
   <!-- Extra details for Live View on GitHub Pages -->
   <!-- Canonical SEO -->
   <link rel="canonical" href="https://www.creative-tim.com/product/argon-design-system" />
@@ -41,12 +43,42 @@
   <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg">
   <!-- Open Graph data -->
   <meta property="fb:app_id" content="655968634437471">
-  <meta property="og:title" content="Argon - Free Design System for Bootstrap 4 by Creative Tim" />
+  <meta property="og:title" content="Argon Design System by Creative Tim" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://demos.creative-tim.com/argon-design-system/index.html" />
   <meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg" />
   <meta property="og:description" content="Start your development with a Design System for Bootstrap 4." />
   <meta property="og:site_name" content="Creative Tim" />
+  <!--  -->
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- Nucleo Icons -->
+  <link href="../../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link href="../../assets/css/font-awesome.css" rel="stylesheet" />
+  <link href="../../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="../../assets/css/argon-design-system.min.css?v=1.2.0" rel="stylesheet" />
+  <!-- Documentation extras -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+  <link rel="stylesheet" href="../../assets/demo/docs.min.css">
+  <style>
+    .navbar-absolute-logo {
+      padding-left: 45px;
+    }
+
+    .navbar-absolute-logo img {
+      position: absolute;
+      left: 15px;
+      margin-top: -6px;
+    }
+
+    body {
+      background: white;
+    }
+  </style>
   <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
@@ -65,74 +97,74 @@
     })(window, document, 'script', 'dataLayer', 'GTM-NKDMSK6');
   </script>
   <!-- End Google Tag Manager -->
-  <!-- Favicon -->
-  <link href="../../assets/img/brand/favicon.png" rel="icon" type="image/png">
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <!-- Icons -->
-  <link href="../../assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
-  <link href="../../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <!-- Argon CSS -->
-  <link type="text/css" href="../../assets/css/argon.min.css" rel="stylesheet">
-  <!-- Docs CSS -->
-  <link type="text/css" href="../../assets/css/docs.min.css" rel="stylesheet">
 </head>
 
-<body>
-  <header class="navbar navbar-expand navbar-dark flex-row align-items-md-center ct-navbar">
-    <a class="navbar-brand mr-0 mr-md-2" href="../../docs/getting-started/overview.html" aria-label="Bootstrap">
+<body class="docs ">
+  <!-- Extra details for Live View on GitHub Pages -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+    <div class="container">
+      <span class="skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  <header class="navbar navbar-horizontal navbar-expand navbar-dark flex-row align-items-md-center ct-navbar bg-primary py-2">
+    <a class="navbar-brand mr-0 mr-md-2" href="../../index.html" aria-label="Bootstrap">
       <img src="../../assets/img/brand/white.png">
-      <sup>Docs</sup>
+      <sup>DOCS</sup>
     </a>
     <ul class="navbar-nav flex-row mr-auto ml-4 d-none d-md-flex">
       <li class="nav-item">
         <a class="nav-link" href="../../index.html">Live Preview</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://github.com/creativetimofficial/argon-design-system/issues" target="_blank">Support</a>
+        <a class="nav-link" href="https://github.com/creativetimofficial/ct-argon-design-system-pro/issues" rel="nofollow" target="_blank">Support</a>
       </li>
     </ul>
     <div class="d-none d-sm-block ml-auto">
       <ul class="navbar-nav ct-navbar-nav flex-row align-items-center">
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://www.facebook.com/creativetim" target="_blank">
-            <i class="fa fa-facebook-square"></i>
+          <a class="nav-link nav-link-icon" href="https://www.facebook.com/creativetim" rel="nofollow" target="_blank">
+            <i class="fab fa-facebook-square"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank">
-            <i class="fa fa-twitter"></i>
+          <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" rel="nofollow" target="_blank">
+            <i class="fab fa-twitter"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial" target="_blank">
-            <i class="fa fa-instagram"></i>
+          <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial/" rel="nofollow" target="_blank">
+            <i class="fab fa-instagram"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial" target="_blank">
-            <i class="fa fa-dribbble"></i>
+          <a class="nav-link nav-link-icon" href="https://dribbble.com/creativetim" rel="nofollow" target="_blank">
+            <i class="fab fa-dribbble"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://github.com/creativetimofficial" target="_blank">
-            <i class="fa fa-github"></i>
+          <a class="nav-link nav-link-icon" href="https://github.com/creativetimofficial" rel="nofollow" target="_blank">
+            <i class="fab fa-github"></i>
           </a>
         </li>
       </ul>
     </div>
-    <a href="https://www.creative-tim.com/product/argon-design-system-pro?ref=ads-upgrade-pro" target="_blank" class="btn btn-neutral btn-icon ml-sm-3 d-none d-md-block">
-      <span class="btn-inner--icon">
-        <i class="fa fa-shopping-cart"></i>
-      </span>
-      <span class="nav-link-inner--text">Upgrade to PRO</span>
-    </a>
-    <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-neutral btn-icon ml-sm-3 d-none d-md-block">
-      <span class="btn-inner--icon">
-        <i class="fa fa-cloud-download mr-2"></i>
-      </span>
-      <span class="nav-link-inner--text">Download</span>
-    </a>
+    <li class="nav-item d-none d-lg-block ml-lg-4">
+      <a href="https://www.creative-tim.com/product/argon-design-system-pro?ref=ads-upgrade-pro" target="_blank" class="btn btn-neutral btn-icon">
+        <span class="btn-inner--icon">
+          <i class="fa fa-shopping-cart"></i>
+        </span>
+        <span class="nav-link-inner--text">Upgrade to PRO</span>
+      </a>
+      <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-neutral btn-icon">
+        <span class="btn-inner--icon">
+          <i class="fa fa-cloud-download mr-2"></i>
+        </span>
+        <span class="nav-link-inner--text">Download</span>
+      </a>
+    </li>
     <button class="navbar-toggler ct-search-docs-toggle d-block d-md-none ml-auto ml-sm-0" type="button" data-toggle="collapse" data-target="#ct-docs-nav" aria-controls="ct-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -141,80 +173,182 @@
     <div class="row flex-xl-nowrap">
       <div class="col-12 col-md-3 col-xl-2 ct-sidebar">
         <nav class="collapse ct-links" id="ct-docs-nav">
-          <!-- Show links for all groups -->
           <div class="ct-toc-item active">
-            <a class="ct-toc-link" href="../../docs/getting-started/overview.html">Getting started</a>
+            <a class="ct-toc-link" href="#docs">
+              Getting started
+            </a>
             <ul class="nav ct-sidenav">
-              <li>
-                <a href="../../docs/getting-started/overview.html">Overview</a></li>
-              <li>
-                <a href="../../docs/getting-started/download.html">Download</a></li>
-              <li>
-                <a href="../../docs/getting-started/quick-start.html">Quick start</a></li>
-              <li>
-                <a href="../../docs/getting-started/license.html">License</a></li>
-              <li>
-                <a href="../../docs/getting-started/contents.html">Contents</a></li>
-              <li>
-                <a href="../../docs/getting-started/build-tools.html">Build tools</a></li>
+              <li class="">
+                <a href="../../docs/getting-started/overview.html">
+                  Overview
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/getting-started/download.html">
+                  Download
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/getting-started/quick-start.html">
+                  Quick Start
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/getting-started/license.html">
+                  License
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/getting-started/contents.html">
+                  Contents
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/getting-started/build-tools.html">
+                  Build Tools
+                </a>
+              </li>
             </ul>
           </div>
-          <!-- Show links for all groups -->
           <div class="ct-toc-item active">
-            <a class="ct-toc-link" href="../../docs/foundation/colors.html">Foundation</a>
+            <a class="ct-toc-link" href="#docs">
+              Foundation
+            </a>
             <ul class="nav ct-sidenav">
-              <li>
-                <a href="../../docs/foundation/colors.html">Colors</a></li>
-              <li>
-                <a href="../../docs/foundation/grid.html">Grid</a></li>
-              <li>
-                <a href="../../docs/foundation/typography.html">Typography</a></li>
-              <li>
-                <a href="../../docs/foundation/icons.html">Icons</a></li>
+              <li class="">
+                <a href="../../docs/foundation/colors.html">
+                  Colors
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/foundation/grid.html">
+                  Grid
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/foundation/typography.html">
+                  Typography
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/foundation/icons.html">
+                  Icons
+                </a>
+              </li>
             </ul>
           </div>
-          <!-- Show links for all groups -->
           <div class="ct-toc-item active">
-            <a class="ct-toc-link" href="../../docs/components/alerts.html">Components</a>
+            <a class="ct-toc-link" href="#docs">
+              Components
+            </a>
             <ul class="nav ct-sidenav">
-              <li>
-                <a href="../../docs/components/alerts.html">Alerts</a></li>
-              <li>
-                <a href="../../docs/components/badge.html">Badge</a></li>
+              <li class="">
+                <a href="../../docs/components/alerts.html">
+                  Alerts
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/badge.html">
+                  Badge
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/breadcrumb.html">
+                  Breadcrumb
+                </a>
+              </li>
               <li class="active ct-sidenav-active">
-                <a href="../../docs/components/buttons.html">Buttons</a></li>
-              <li>
-                <a href="../../docs/components/carousel.html">Carousel</a></li>
-              <li>
-                <a href="../../docs/components/dropdowns.html">Dropdowns</a></li>
-              <li>
-                <a href="../../docs/components/forms.html">Forms</a></li>
-              <li>
-                <a href="../../docs/components/modal.html">Modal</a></li>
-              <li>
-                <a href="../../docs/components/navs.html">Navs</a></li>
-              <li>
-                <a href="../../docs/components/navbar.html">Navbar</a></li>
-              <li>
-                <a href="../../docs/components/pagination.html">Pagination</a></li>
-              <li>
-                <a href="../../docs/components/popovers.html">Popovers</a></li>
-              <li>
-                <a href="../../docs/components/progress.html">Progress</a></li>
-              <li>
-                <a href="../../docs/components/tooltips.html">Tooltips</a></li>
+                <a href="../../docs/components/buttons.html">
+                  Buttons
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/carousel.html">
+                  Carousel
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/dropdowns.html">
+                  Dropdowns
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/forms.html">
+                  Forms
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/images.html">
+                  Images
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/modal.html">
+                  Modal
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/navs.html">
+                  Navs
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/navbar.html">
+                  Navbar
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/pagination.html">
+                  Pagination
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/popovers.html">
+                  Popovers
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/progress.html">
+                  Progress
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/tables.html">
+                  Tables
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/components/tooltips.html">
+                  Tooltips
+                </a>
+              </li>
             </ul>
           </div>
-          <!-- Show links for all groups -->
           <div class="ct-toc-item active">
-            <a class="ct-toc-link" href="../../docs/plugins/datepicker.html">Plugins</a>
+            <a class="ct-toc-link" href="#docs">
+              Plugins
+            </a>
             <ul class="nav ct-sidenav">
-              <li>
-                <a href="../../docs/plugins/datepicker.html">Datepicker</a></li>
-              <li>
-                <a href="../../docs/plugins/headroom.html">Headroom</a></li>
-              <li>
-                <a href="../../docs/plugins/sliders.html">Sliders</a></li>
+              <li class="">
+                <a href="../../docs/plugins/sliders.html">
+                  Sliders
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/plugins/datepicker.html">
+                  DatePicker
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/plugins/datetimepicker.html">
+                  DateTimePicker
+                </a>
+              </li>
+              <li class="">
+                <a href="../../docs/plugins/headroom.html">
+                  Headroom
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
@@ -222,255 +356,120 @@
       <div class="d-none d-xl-block col-xl-2 ct-toc">
         <ul class="section-nav">
           <li class="toc-entry toc-h2"><a href="#examples">Examples</a></li>
-          <li class="toc-entry toc-h2"><a href="#outline-buttons">Outline buttons</a></li>
+          <li class="toc-entry toc-h2"><a href="#style-buttons">Style buttons</a></li>
           <li class="toc-entry toc-h2"><a href="#sizes">Sizes</a></li>
-          <li class="toc-entry toc-h2"><a href="#active-state">Active state</a></li>
           <li class="toc-entry toc-h2"><a href="#disabled-state">Disabled state</a></li>
         </ul>
       </div>
       <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 ct-content" role="main">
         <div class="ct-page-title">
           <h1 class="ct-title" id="content">Buttons</h1>
-          <div class="avatar-group mt-3">
-          </div>
         </div>
-        <p class="ct-lead">Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</p>
+        <p class="ct-lead">Use Black Dashboard's custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</p>
         <hr>
         <h2 id="examples">Examples</h2>
-        <p>Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.</p>
-        <div class="ct-example">
-          <ul class="nav nav-tabs-code" id="buttons-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="buttons-component-tab" data-toggle="tab" href="#buttons-component" role="tab" aria-controls="buttons-component" aria-selected="true">Result</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="buttons-html-tab" data-toggle="tab" href="#buttons-html" role="tab" aria-controls="buttons-html" aria-selected="false">HTML</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="buttons-component" class="tab-pane tab-example-result fade show active" role="tabpanel" aria-labelledby="buttons-component-tab">
-              <button class="btn btn-primary" type="button">Button</button>
-              <button class="btn btn-icon btn-3 btn-primary" type="button">
-                <span class="btn-inner--icon"><i class="ni ni-bag-17"></i></span>
-                <span class="btn-inner--text">With icon</span>
-              </button>
-              <button class="btn btn-icon btn-2 btn-primary" type="button">
-                <span class="btn-inner--icon"><i class="ni ni-atom"></i></span>
-              </button>
-            </div>
-            <div id="buttons-html" class="tab-pane fade" role="tabpanel" aria-labelledby="buttons-html-tab">
-              <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
-
-
-<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-icon btn-3 btn-primary"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"btn-inner--icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ni ni-bag-17"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-	
-    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"btn-inner--text"</span><span class="nt">&gt;</span>With icon<span class="nt">&lt;/span&gt;</span>
-    
-<span class="nt">&lt;/button&gt;</span>
-
-
-<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-icon btn-2 btn-primary"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"btn-inner--icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"ni ni-atom"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
-	
-<span class="nt">&lt;/button&gt;</span></code></pre>
-              </figure>
-            </div>
-          </div>
+        <p>Black Dashboard has changed the predefined button styles from Bootstrap, each serving its own semantic purpose, with a few extras thrown in for more control.</p>
+        <div class="bd-example" data-example-id="">
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-info">Info</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-default">Default</button>
+          <button type="button" class="btn btn-secondary">Secondary</button>
         </div>
-        <div class="ct-example">
-          <ul class="nav nav-tabs-code" id="buttons-colors-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="buttons-colors-component-tab" data-toggle="tab" href="#buttons-colors-component" role="tab" aria-controls="buttons-colors-component" aria-selected="true">Result</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="buttons-colors-html-tab" data-toggle="tab" href="#buttons-colors-html" role="tab" aria-controls="buttons-colors-html" aria-selected="false">HTML</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="buttons-colors-component" class="tab-pane tab-example-result fade show active" role="tabpanel" aria-labelledby="buttons-colors-component-tab">
-              <button type="button" class="btn btn-default">Default</button>
-              <button type="button" class="btn btn-primary">Primary</button>
-              <button type="button" class="btn btn-secondary">Secondary</button>
-              <button type="button" class="btn btn-info">Info</button>
-              <button type="button" class="btn btn-success">Success</button>
-              <button type="button" class="btn btn-danger">Danger</button>
-              <button type="button" class="btn btn-warning">Warning</button>
-            </div>
-            <div id="buttons-colors-html" class="tab-pane fade" role="tabpanel" aria-labelledby="buttons-colors-html-tab">
-              <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary"</span><span class="nt">&gt;</span>Secondary<span class="nt">&lt;/button&gt;</span>
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
 <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-info"</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/button&gt;</span>
 <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/button&gt;</span>
 <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span></code></pre>
-              </figure>
-            </div>
-          </div>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary"</span><span class="nt">&gt;</span>Secondary<span class="nt">&lt;/button&gt;</span></code></pre>
         </div>
-        <h2 id="outline-buttons">Outline buttons</h2>
-        <p>In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the <code class="highlighter-rouge">.btn-outline-*</code> ones to remove all background images and colors on any button.</p>
-        <div class="ct-example">
-          <ul class="nav nav-tabs-code" id="buttons-outline-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="buttons-outline-component-tab" data-toggle="tab" href="#buttons-outline-component" role="tab" aria-controls="buttons-outline-component" aria-selected="true">Result</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="buttons-outline-html-tab" data-toggle="tab" href="#buttons-outline-html" role="tab" aria-controls="buttons-outline-html" aria-selected="false">HTML</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="buttons-outline-component" class="tab-pane tab-example-result fade show active" role="tabpanel" aria-labelledby="buttons-outline-component-tab">
-              <button type="button" class="btn btn-outline-default">Default</button>
-              <button type="button" class="btn btn-outline-primary">Primary</button>
-              <button type="button" class="btn btn-outline-secondary">Secondary</button>
-              <button type="button" class="btn btn-outline-info">Info</button>
-              <button type="button" class="btn btn-outline-success">Success</button>
-              <button type="button" class="btn btn-outline-danger">Danger</button>
-              <button type="button" class="btn btn-outline-warning">Warning</button>
-            </div>
-            <div id="buttons-outline-html" class="tab-pane fade" role="tabpanel" aria-labelledby="buttons-outline-html-tab">
-              <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-outline-default"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-outline-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-outline-secondary"</span><span class="nt">&gt;</span>Secondary<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-outline-info"</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-outline-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-outline-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-outline-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span></code></pre>
-              </figure>
-            </div>
-          </div>
+        <h2 id="style-buttons">Style buttons</h2>
+        <div class="bd-example" data-example-id="">
+          <button class="btn btn-primary">Default</button>
+          <button class="btn btn-primary btn-round">Round</button>
+          <button class="btn btn-primary btn-round">
+            <i class="tim-icons icon-gift-2"></i> With Icon
+          </button>
+          <button class="btn btn-primary btn-fab btn-icon btn-round">
+            <i class="ni ni-active-40"></i>
+          </button>
+          <button class="btn btn-primary btn-neutral">Neutral</button>
+        </div>
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-round"</span><span class="nt">&gt;</span>Round<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-round"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"tim-icons icon-gift-2"</span><span class="nt">&gt;&lt;/i&gt;</span> With Icon
+<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-fab btn-icon btn-round"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"ni ni-active-40"</span><span class="nt">&gt;&lt;/i&gt;</span>
+<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-neutral"</span><span class="nt">&gt;</span>Neutral<span class="nt">&lt;/button&gt;</span></code></pre>
         </div>
         <h2 id="sizes">Sizes</h2>
         <p>Fancy larger or smaller buttons? Add <code class="highlighter-rouge">.btn-lg</code> or <code class="highlighter-rouge">.btn-sm</code> for additional sizes.</p>
-        <div class="ct-example">
-          <ul class="nav nav-tabs-code" id="buttons-lg-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="buttons-lg-component-tab" data-toggle="tab" href="#buttons-lg-component" role="tab" aria-controls="buttons-lg-component" aria-selected="true">Result</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="buttons-lg-html-tab" data-toggle="tab" href="#buttons-lg-html" role="tab" aria-controls="buttons-lg-html" aria-selected="false">HTML</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="buttons-lg-component" class="tab-pane tab-example-result fade show active" role="tabpanel" aria-labelledby="buttons-lg-component-tab">
-              <button type="button" class="btn btn-primary btn-lg">Large button</button>
-              <button type="button" class="btn btn-secondary btn-lg">Large button</button>
-            </div>
-            <div id="buttons-lg-html" class="tab-pane fade" role="tabpanel" aria-labelledby="buttons-lg-html-tab">
-              <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-lg"</span><span class="nt">&gt;</span>Large button<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary btn-lg"</span><span class="nt">&gt;</span>Large button<span class="nt">&lt;/button&gt;</span></code></pre>
-              </figure>
-            </div>
-          </div>
+        <div class="bd-example" data-example-id="">
+          <button class="btn btn-primary btn-sm">Small</button>
+          <button class="btn btn-primary">Regular</button>
+          <button class="btn btn-primary btn-lg">Large</button>
         </div>
-        <div class="ct-example">
-          <ul class="nav nav-tabs-code" id="buttons-sm-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="buttons-sm-component-tab" data-toggle="tab" href="#buttons-sm-component" role="tab" aria-controls="buttons-sm-component" aria-selected="true">Result</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="buttons-sm-html-tab" data-toggle="tab" href="#buttons-sm-html" role="tab" aria-controls="buttons-sm-html" aria-selected="false">HTML</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="buttons-sm-component" class="tab-pane tab-example-result fade show active" role="tabpanel" aria-labelledby="buttons-sm-component-tab">
-              <button type="button" class="btn btn-primary btn-sm">Small button</button>
-              <button type="button" class="btn btn-secondary btn-sm">Small button</button>
-            </div>
-            <div id="buttons-sm-html" class="tab-pane fade" role="tabpanel" aria-labelledby="buttons-sm-html-tab">
-              <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-sm"</span><span class="nt">&gt;</span>Small button<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary btn-sm"</span><span class="nt">&gt;</span>Small button<span class="nt">&lt;/button&gt;</span></code></pre>
-              </figure>
-            </div>
-          </div>
-        </div>
-        <p>Create block level buttons—those that span the full width of a parent—by adding <code class="highlighter-rouge">.btn-block</code>.</p>
-        <div class="ct-example">
-          <ul class="nav nav-tabs-code" id="buttons-block-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="buttons-block-component-tab" data-toggle="tab" href="#buttons-block-component" role="tab" aria-controls="buttons-block-component" aria-selected="true">Result</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="buttons-block-html-tab" data-toggle="tab" href="#buttons-block-html" role="tab" aria-controls="buttons-block-html" aria-selected="false">HTML</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="buttons-block-component" class="tab-pane tab-example-result fade show active" role="tabpanel" aria-labelledby="buttons-block-component-tab">
-              <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-              <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
-            </div>
-            <div id="buttons-block-html" class="tab-pane fade" role="tabpanel" aria-labelledby="buttons-block-html-tab">
-              <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-lg btn-block"</span><span class="nt">&gt;</span>Block level button<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary btn-lg btn-block"</span><span class="nt">&gt;</span>Block level button<span class="nt">&lt;/button&gt;</span></code></pre>
-              </figure>
-            </div>
-          </div>
-        </div>
-        <h2 id="active-state">Active state</h2>
-        <p>Buttons will appear pressed (with a darker background, darker border, and inset shadow) when active. <strong>There’s no need to add a class to <code class="highlighter-rouge">&lt;button&gt;</code>s as they use a pseudo-class</strong>. However, you can still force the same active appearance with <code class="highlighter-rouge">.active</code> (and include the <code>aria-pressed="true"</code> attribute) should you need to replicate the state programmatically.</p>
-        <div class="ct-example">
-          <ul class="nav nav-tabs-code" id="buttons-state-active-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="buttons-state-active-component-tab" data-toggle="tab" href="#buttons-state-active-component" role="tab" aria-controls="buttons-state-active-component" aria-selected="true">Result</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="buttons-state-active-html-tab" data-toggle="tab" href="#buttons-state-active-html" role="tab" aria-controls="buttons-state-active-html" aria-selected="false">HTML</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="buttons-state-active-component" class="tab-pane tab-example-result fade show active" role="tabpanel" aria-labelledby="buttons-state-active-component-tab">
-              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
-              <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
-            </div>
-            <div id="buttons-state-active-html" class="tab-pane fade" role="tabpanel" aria-labelledby="buttons-state-active-html-tab">
-              <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-lg active"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">aria-pressed=</span><span class="s">"true"</span><span class="nt">&gt;</span>Primary link<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-secondary btn-lg active"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">aria-pressed=</span><span class="s">"true"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span></code></pre>
-              </figure>
-            </div>
-          </div>
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-sm"</span><span class="nt">&gt;</span>Small<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Regular<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-lg"</span><span class="nt">&gt;</span>Large<span class="nt">&lt;/button&gt;</span></code></pre>
         </div>
         <h2 id="disabled-state">Disabled state</h2>
         <p>Make buttons look inactive by adding the <code class="highlighter-rouge">disabled</code> boolean attribute to any <code class="highlighter-rouge">&lt;button&gt;</code> element.</p>
-        <div class="ct-example">
-          <ul class="nav nav-tabs-code" id="buttons-state-disabled-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="buttons-state-disabled-component-tab" data-toggle="tab" href="#buttons-state-disabled-component" role="tab" aria-controls="buttons-state-disabled-component" aria-selected="true">Result</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="buttons-state-disabled-html-tab" data-toggle="tab" href="#buttons-state-disabled-html" role="tab" aria-controls="buttons-state-disabled-html" aria-selected="false">HTML</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="buttons-state-disabled-component" class="tab-pane tab-example-result fade show active" role="tabpanel" aria-labelledby="buttons-state-disabled-component-tab">
-              <button type="button" class="btn btn-lg btn-primary" disabled="">Primary button</button>
-              <button type="button" class="btn btn-secondary btn-lg" disabled="">Button</button>
-            </div>
-            <div id="buttons-state-disabled-html" class="tab-pane fade" role="tabpanel" aria-labelledby="buttons-state-disabled-html-tab">
-              <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-lg btn-primary"</span> <span class="na">disabled</span><span class="nt">&gt;</span>Primary button<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary btn-lg"</span> <span class="na">disabled</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span></code></pre>
-              </figure>
-            </div>
-          </div>
+        <div class="bd-example" data-example-id="">
+          <button type="button" class="btn btn-lg btn-primary" disabled="">Primary button</button>
+          <button type="button" class="btn btn-secondary btn-lg" disabled="">Button</button>
         </div>
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-lg btn-primary"</span> <span class="na">disabled</span><span class="nt">&gt;</span>Primary button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-secondary btn-lg"</span> <span class="na">disabled</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span></code></pre>
+        </div>
+        <p>Disabled buttons using the <code class="highlighter-rouge">&lt;a&gt;</code> element behave a bit different:</p>
+        <ul>
+          <li><code class="highlighter-rouge">&lt;a&gt;</code>s don’t support the <code class="highlighter-rouge">disabled</code> attribute, so you must add the <code class="highlighter-rouge">.disabled</code> class to make it visually appear disabled.</li>
+          <li>Some future-friendly styles are included to disable all <code class="highlighter-rouge">pointer-events</code> on anchor buttons. In browsers which support that property, you won’t see the disabled cursor at all.</li>
+        </ul>
+        <div class="bd-example" data-example-id="">
+          <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Primary link</a>
+          <a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Link</a>
+        </div>
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-lg disabled"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">aria-disabled=</span><span class="s">"true"</span><span class="nt">&gt;</span>Primary link<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-secondary btn-lg disabled"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">aria-disabled=</span><span class="s">"true"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span></code></pre>
+        </div>
+        <p>If you want to see more examples and properties please check the official <strong><a href="http://getbootstrap.com/docs/4.0/components/buttons/" target="_blank">Bootstrap Documentation</a></strong>.</p>
       </main>
     </div>
   </div>
-  <!-- Core -->
-  <script src="../../assets/vendor/jquery/jquery.min.js"></script>
-  <script src="../../assets/vendor/popper/popper.min.js"></script>
-  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
-  <script src="../../assets/vendor/headroom/headroom.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      // $('a[href="#"]:not([data-toggle="dropdown])').click(function() {
-      // 	return false;
-      // })
-    })
-  </script>
+  <!--   Core JS Files   -->
+  <script src="../../assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="../../assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="../../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="../../assets/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="../../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <script src="../../assets/js/plugins/moment.min.js"></script>
+  <script src="../../assets/js/plugins/datetimepicker.js" type="text/javascript"></script>
+  <script src="../../assets/js/plugins/bootstrap-datepicker.min.js"></script>
+  <!-- Control Center for Argon UI Kit: parallax effects, scripts for the example pages etc -->
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="../../assets/js/argon-design-system.min.js?v=1.2.0" type="text/javascript"></script> <!-- Sharrre libray -->
+  <script src="../../assets/demo/jquery.sharrre.js"></script>
   <script>
     $(document).ready(function() {
+
+
+
+      // Goolge Analytics Code Don't Delete
+
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-46172202-1']);
       _gaq.push(['_trackPageview']);
@@ -512,19 +511,70 @@
         console.log('Facebook Track Error:', err);
       }
 
+
+      // 
+      // 
+
     });
   </script>
   <noscript>
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
   </noscript>
-  <!-- Docs JS -->
-  <script src="../../assets/js/vendor/anchor.min.js"></script>
-  <script src="../../assets/js/vendor/clipboard.min.js"></script>
-  <script src="../../assets/js/vendor/holder.min.js"></script>
-  <script src="../../assets/js/vendor/prism.min.js"></script>
-  <script src="../../assets/js/docs.min.js"></script>
-  <!-- Argon JS -->
-  <script src="../../assets/js/argon.min.js"></script>
+  <script src="../../assets/demo/docs.min.js"></script>
+  <script src="../../assets/demo/vendor/anchor.min.js"></script>
+  <script src="../../assets/demo/vendor/clipboard.min.js"></script>
+  <script src="../../assets/demo/vendor/holder.min.js"></script>
+  <script src="../../assets/demo/src/application.js"></script>
+  <script>
+  </script>
+  <script>
+    Holder.addTheme('gray', {
+      bg: '#777',
+      fg: 'rgba(255,255,255,.75)',
+      font: 'Helvetica',
+      fontweight: 'normal'
+    })
+  </script>
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "argon-design-system-pro"
+      });
+  </script>
+  <script>
+    // Facebook Pixel Code Don't Delete
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window,
+      document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+
+    try {
+      fbq('init', '111649226022273');
+      fbq('track', "PageView");
+
+    } catch (err) {
+      console.log('Facebook Track Error:', err);
+    }
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
+  </noscript>
 </body>
 
 </html>
