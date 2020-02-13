@@ -1,195 +1,150 @@
-<h1 id="argon-design-system"><a href="https://www.creative-tim.com/product/argon-design-system">Argon Design System</a></h1>
+# [Blk• Design  System](http://demos.creative-tim.com/blk-design-system/index.html) [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
 
-<p><img src="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg" alt="Product Gif" /></p>
+![alt text](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/blk-design-system/opt_blk_thumbnail.jpg "Blk• Design System")
 
-<p>Start your development with a Design System for Bootstrap 4. It is open source, free and it features many components that can help you create amazing websites.</p>
 
-<h4 id="fully-coded-components">Fully Coded Components</h4>
+**[Blk• Design  System](http://demos.creative-tim.com/blk-design-system/index.html)** is a responsive Bootstrap 4 kit provided for free by Creative Tim. It is a beautiful cross-platform UI kit featuring over 70 elements and 3 templates.
 
-<p>Argon Design System is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files.</p>
+Now will help you create a clean and simple website that is a perfect fit for today's black design. It is built using the 12 column grid system, with components designed to fit together perfectly. It makes use of bold colours, beautiful typography, clear photography and spacious arrangements.
 
-<p>You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. This Design System is coming with prebuilt examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.</p>
+## Complex Documentation
 
-<p>Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.</p>
+Each element is well presented in a very complex documentation. You can read more about the idea behind this design system here. You can check the components here and the foundation here.
 
-<h4 id="complex-documentation">Complex Documentation</h4>
+## Bootstrap 4 Support
 
-<p>Each element is well presented in a very complex documentation. You can read more about the idea behind this design system here. You can check the components here and the foundation here.</p>
+Blk• Design System is built on top of the much awaited Bootstrap 4. This makes starting a new project very simple. It also provides benefits if you are already working on a Bootstrap 4 project; you can just import the Blk• Design System style over it. Most of the elements have been redesigned; but if you are using an element we have not touched, it will fall back to the Bootstrap default.
 
-<h4 id="example-pages">Example Pages</h4>
+## Table of contents
 
-<p>If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.</p>
+* [Getting Started](#getting-started)
+* [Example Pages](#example-pages)
+* [Documentation](#documentation)
+* [Tutorial](#tutorial)
+* [File Structure](#file-structure)
+* [Browser Support](#browser-support)
+* [Technical Support or Questions](#technical-support-or-questions)
+* [Useful Links](#useful-links)
 
-<h2 id="table-of-contents">Table of Contents</h2>
+## Getting Started
 
-<ul>
-  <li><a href="#demo">Demo</a></li>
-  <li><a href="#quick-start">Quick Start</a></li>
-  <li><a href="#documentation">Documentation</a></li>
-  <li><a href="#file-structure">File Structure</a></li>
-  <li><a href="#browser-support">Browser Support</a></li>
-  <li><a href="#resources">Resources</a></li>
-  <li><a href="#reporting-issues">Reporting Issues</a></li>
-  <li><a href="#technical-support-or-questions">Technical Support or Questions</a></li>
-  <li><a href="#licensing">Licensing</a></li>
-  <li><a href="#useful-links">Useful Links</a></li>
-</ul>
+We've also included an optional Gulp file to help you get started with theme customization. You'll need to install Node.js and Gulp before using our included gulpfile.js.
 
-<h2 id="versions">Versions</h2>
+1. Download the project's zip
+2. Make sure you have node.js (https://nodejs.org/en/) installed
+3. Type `npm install` in terminal/console in the source folder where `package.json` is located
+4. You will find all the branding colors inside `assets/scss/blk-design-system/custom/_variables.scss`. You can change them with a `HEX` value or with other predefined variables.
+5. Run in terminal `gulp compile-scss` for a single compilation or `gulp watch` for continous compilation of the changes that you make in `*.scss` files. This command should be run in the same folder where `gulpfile.js` and `package.json` are located
+6. Run in terminal `gulp default` for opening the Dashboard Page (default) of the product.
 
-<p>We are coding Argon Design System for this frameworks also. Chek’em out:</p>
+## Example Pages
 
-<ul>
-  <li><a href="https://www.creative-tim.com/product/vue-argon-design-system">Vue.js</a></li>
-</ul>
+We wanted to fully display the power of this kit, so the kit comes packed with examples showing you how to use the components. Inside the product you will find:
 
-<h3 id="coming-soon">Coming soon</h3>
++ [Live Preview](http://demos.creative-tim.com/blk-design-system/index.html)
++ [Profile Page](http://demos.creative-tim.com/blk-design-system/examples/profile-page.html)
++ [Register Page](http://demos.creative-tim.com/blk-design-system/examples/register-page.html)
++ [Landing Page](http://demos.creative-tim.com/blk-design-system/examples/landing-page.html)
 
-<ul>
-  <li>Angular</li>
-  <li>React</li>
-  <li>Sketch</li>
-  <li>Photoshop</li>
-</ul>
+## Documentation
 
-<h2 id="demo">Demo</h2>
+The documentation for the Blk• Design System is hosted at our [website](https://demos.creative-tim.com/blk-design-system/docs/1.0/getting-started/overview.html).
 
-<ul>
-  <li><a href="https://demos.creative-tim.com/argon-design-system">Index Page</a></li>
-  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/landing.html">Landing page</a></li>
-  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/profile.html">Profile Page</a></li>
-  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/login.html">Login Page</a></li>
-  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/register.html">Register Page</a></li>
-  <li><a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">Documentation</a></li>
-</ul>
+## Tutorial
 
-<p><a href="https://demos.creative-tim.com/argon-design-system">View More</a></p>
+In order for you to easily be able to use the Blk• Design System, we have created a tutorial page. It shows the structure for the files inside the archive and how to import them. It then features every components with a description and example fr how to use it. You can see the details here ().
 
-<h2 id="download-and-installation">Download and Installation</h2>
+## Coming soon
 
-<ul>
-  <li><a href="https://github.com/creativetimofficial/argon-design-system/archive/master.zip">Download from Github</a></li>
-  <li>
-    <p><a href="https://www.creative-tim.com/product/argon-design-system">Download from Creative Tim</a></p>
-  </li>
-  <li>
-    <p>Install with Bower: <code class="highlighter-rouge">bower install argon-design-system</code></p>
-  </li>
-  <li>
-    <p>Install with Composer: <code class="highlighter-rouge">composer create-project creativetimofficial/argon-design-system</code></p>
-  </li>
-  <li>
-    <p>Clone from Github: <code class="highlighter-rouge">git clone https://github.com/creativetimofficial/argon-design-system.git</code></p>
-  </li>
-  <li>
-    <p>Install with Npm: <code class="highlighter-rouge">npm i argon-design-system-free</code></p>
-  </li>
-  <li>Install with Yarn: <code class="highlighter-rouge">yarn add argon-design-system-free</code></li>
-</ul>
+- Vue.js
+- Angular
+- React
+- Sketch
+- Photoshop
 
-<h2 id="documentation">Documentation</h2>
+## File Structure
 
-<p>The documentation for the Argon Design System is hosted at our <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">website</a>.</p>
+Within the download you'll find the following directories and files:
 
-<h2 id="file-structure">File Structure</h2>
-
-<p>Within the download you’ll find the following directories and files:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>argon/
+```
+Blk• Design System
+.
 ├── CHANGELOG.md
-├── LICENSE.md
 ├── README.md
 ├── assets/
-  ├── css/
-  │   ├── argon.css
-  │   ├── argon.css.map
-  │   ├── argon.min.css
-  │   ├── argon.min.css.map
-  └── img/
-  │   ├── argon/
-  │   ├── brand/
-  │   ├── icons/
-  │   ├── ill/
-  └── js/
-  │   ├── argon.js
-  │   └── argon.min.js
-  └── scss/
-  │   ├── bootstrap/
-  │   ├── custom/
-  │   ├── argon.scss
-  └── vendor/
-      ├── bootstrap/
-      ├── bootstrap-datepicker/
-      ├── font-awesome/
-      ├── headroom/
-      ├── jquery/
-      ├── nouislider/
-      ├── nucleo/
-      ├── popper/
+│   ├── css/
+│   │   ├── blk-design-system.css
+│   │   ├── blk-design-system.css.map
+│   │   ├── blk-design-system.min.css
+│   │   └── nucleo-icons.css
+│   ├── demo/
+│   ├── fonts/
+│   ├── img/
+│   ├── js/
+│   │   ├── blk-design-system.js
+│   │   ├── blk-design-system.js.map
+│   │   ├── blk-design-system.min.js
+│   │   ├── core/
+│   │   │   ├── bootstrap.min.js
+│   │   │   ├── jquery.min.js
+│   │   │   └── popper.min.js
+│   │   └── plugins/
+│   └── scss/
+│       ├── blk-design-system/
+│       │   ├── bootstrap/
+│       │   │   ├── mixins/
+│       │   │   └── utilities/
+│       │   └── custom/
+│       │       ├── cards/
+│       │       ├── mixins/
+│       │       ├── sections/
+│       │       ├── utilities/
+│       │       └── vendor/
+│       └── blk-design-system.scss
+├── docs/
+│   └── documentation.html
+├── examples/
+│   ├── landing-page.html
+│   ├── profile-page.html
+│   └── register-page.html
+├── gulpfile.js
+├── index.html
+└── package.json
+```
 
-</code></pre></div></div>
+## Browser Support
 
-<h2 id="browser-support">Browser Support</h2>
+At present, we officially aim to support the last two versions of the following browsers:
 
-<p>At present, we officially aim to support the last two versions of the following browsers:</p>
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64">
 
-<p><img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64" />
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64" />
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64" />
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64" />
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64" /></p>
+## Technical Support or Questions
 
-<h2 id="resources">Resources</h2>
+If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
 
-<ul>
-  <li>Demo: <a href="https://demos.creative-tim.com/argon-design-system">https://demos.creative-tim.com/argon-design-system</a></li>
-  <li>Download: <a href="https://www.creative-tim.com/product/argon-design-system">https://www.creative-tim.com/product/argon-design-system</a></li>
-  <li>Documentation: <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html</a></li>
-  <li>License Agreement: <a href="https://www.creative-tim.com/license">https://www.creative-tim.com/license</a></li>
-  <li>Support: <a href="https://www.creative-tim.com/contact-us">https://www.creative-tim.com/contact-us</a></li>
-  <li>Issues: <a href="https://github.com/creativetimofficial/argon-design-system/issues">Github Issues Page</a></li>
-</ul>
+## Useful Links
 
-<h2 id="reporting-issues">Reporting Issues</h2>
+- More products from Creative Tim: <https://www.creative-tim.com/bootstrap-themes>
 
-<p>We use GitHub Issues as the official bug tracker for the Argon Design System. Here are some advices for our users that want to report an issue:</p>
+- Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
 
-<ol>
-  <li>Make sure that you are using the latest version of the Argon Design System. Check the CHANGELOG from your copy on our <a href="https://www.creative-tim.com">website</a>.</li>
-  <li>Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.</li>
-  <li>Some issues may be browser specific, so specifying in what browser you encountered the issue might help.</li>
-</ol>
+- Freebies: <http://www.creative-tim.com/products>
 
-<h2 id="technical-support-or-questions">Technical Support or Questions</h2>
+- Affiliate Program (earn money): <http://www.creative-tim.com/affiliates/new>
 
-<p>If you have questions or need help integrating the product please <a href="https://www.creative-tim.com/contact-us">contact us</a> instead of opening an issue.</p>
+## Social Media:
 
-<h2 id="licensing">Licensing</h2>
+* Twitter: <https://twitter.com/CreativeTim>
 
-<ul>
-  <li>
-    <p>Copyright © 2020 Creative Tim (https://www.creative-tim.com)</p>
-  </li>
-  <li>
-    <p>Licensed under MIT (https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md)</p>
-  </li>
-</ul>
+* Facebook: <https://www.facebook.com/CreativeTim>
 
-<h2 id="useful-links">Useful Links</h2>
+* Dribbble: <https://dribbble.com/creativetim>
 
-<ul>
-  <li><a href="https://www.creative-tim.com/bootstrap-themes">More products</a> from Creative Tim</li>
-  <li><a href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w">Tutorials</a></li>
-  <li><a href="https://www.creative-tim.com/bootstrap-themes/free">Freebies</a> from Creative Tim</li>
-  <li><a href="https://www.creative-tim.com/affiliates/new">Affiliate Program</a> (earn money)</li>
-</ul>
+* Google+: <https://plus.google.com/+CreativetimPage>
 
-<h2 id="social-media">Social Media</h2>
+* Instagram: <https://instagram.com/creativetimofficial>
 
-<ul>
-  <li>Twitter: <a href="https://twitter.com/CreativeTim">https://twitter.com/CreativeTim</a></li>
-  <li>Facebook: <a href="https://www.facebook.com/CreativeTim">https://www.facebook.com/CreativeTim</a></li>
-  <li>Dribbble: <a href="https://dribbble.com/creativetim">https://dribbble.com/creativetim</a></li>
-  <li>Google+: <a href="https://plus.google.com/+CreativetimPage">https://plus.google.com/+CreativetimPage</a></li>
-  <li>Instagram: <a href="https://www.instagram.com/CreativeTimOfficial">https://www.instagram.com/CreativeTimOfficial</a></li>
-</ul>
+[CHANGELOG]: ./CHANGELOG.md
+[LICENSE]: ./LICENSE
+[version-badge]: https://img.shields.io/badge/version-1.0.0-blue.svg
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg

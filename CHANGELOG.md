@@ -1,4 +1,9 @@
-# Changelog
+# Change Log
+
+## [1.2.0] 2020-02-13
+
+- UPDATE: Folders structure change
+- UPDATE: Change style of Pages
 
 ## [1.1.1] 2020-02-05
 
