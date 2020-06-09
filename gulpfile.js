@@ -1,5 +1,4 @@
 let gulp = require('gulp');
-let path = require('path');
 let sass = require('gulp-sass');
 let autoprefixer = require('gulp-autoprefixer');
 let sourcemaps = require('gulp-sourcemaps');
