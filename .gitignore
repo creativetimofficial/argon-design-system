@@ -105,6 +105,7 @@ dist
 # TernJS port file
 .tern-port
 
+.idea/
 .idea/.gitignore
 .idea/argon-design-system.iml
 .idea/misc.xml
