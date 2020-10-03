@@ -79,7 +79,7 @@
     <p>Install with Composer: <code class="highlighter-rouge">composer create-project creativetimofficial/argon-design-system</code></p>
   </li>
   <li>
-    <p>Clone from Github: <code class="highlighter-rouge">git clone https://github.com/creativetimofficial/argon-design-system.git</code></p>
+    <p>Clone from Github: <code class="highlighter-rouge">git clone {{ site.product.github_clone }}</code></p>
   </li>
   <li>
     <p>Install with Npm: <code class="highlighter-rouge">npm i argon-design-system-free</code></p>
@@ -168,7 +168,7 @@
 
 <ul>
   <li>
-    <p>Copyright © 2018 Creative Tim (https://www.creative-tim.com)</p>
+    <p>Copyright © 2019 Creative Tim (https://www.creative-tim.com)</p>
   </li>
   <li>
     <p>Licensed under MIT (https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md)</p>
