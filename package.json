@@ -1,8 +1,8 @@
 {
-  "name": "black-kit",
-  "description": "Bootstrap 4 Black Design",
+  "name": "argon-design-system",
+  "description": "Bootstrap 4 Argon Design System",
   "version": "1.0.1",
-  "homepage": "http://creative-tim.com/product/blk-design-system",
+  "homepage": "https://www.creative-tim.com/product/argon-design-system",
   "author": "Creative Tim",
   "license": "Creative Tim License <www.creative-tim.com/license>",
   "devDependencies": {
