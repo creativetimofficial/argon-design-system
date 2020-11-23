@@ -1,15 +1,14 @@
-var gulp = require('gulp');
-var path = require('path');
-var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
-var sourcemaps = require('gulp-sourcemaps');
-var open = require('gulp-open');
+let gulp = require('gulp');
+let sass = require('gulp-sass');
+let autoprefixer = require('gulp-autoprefixer');
+let sourcemaps = require('gulp-sourcemaps');
+let open = require('gulp-open');
 
-var Paths = {
+let Paths = {
   HERE: './',
   DIST: 'dist/',
   CSS: './assets/css/',
-  SCSS_TOOLKIT_SOURCES: './assets/scss/blk-design-system.scss',
+  SCSS_TOOLKIT_SOURCES: './assets/scss/argon-design-system.scss',
   SCSS: './assets/scss/**/**'
 };
 
