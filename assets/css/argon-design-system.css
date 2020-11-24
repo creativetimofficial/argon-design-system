@@ -1,6 +1,6 @@
 /*!
 =========================================================
-*  Argon Design System  - v 1.2.0
+*  Argon Design System  - v 1.2.1
 =========================================================
 
 * Product Page:  https://www.creative-tim.com/product/argon-design-system
@@ -19478,6 +19478,10 @@ textarea[resize="horizontal"] {
   position: absolute;
   z-index: 1050;
   width: 100%;
+}
+
+.navbar.navbar-main {
+  z-index: 3;
 }
 
 .navbar-nav .nav-link {

@@ -1,8 +1,13 @@
 .navbar {
-  &.navbar-absolute{
+
+  &.navbar-absolute {
     position: absolute;
     z-index: 1050;
     width: 100%;
+  }
+
+  &.navbar-main {
+    z-index: 3;
   }
 }
 
