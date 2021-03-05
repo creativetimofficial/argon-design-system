@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.2.2] 2020-11-26
+- Fix the Gulpfile errors
+- Add the Bootstrap folder in SCSS
+
+## [1.2.1] 2020-11-24
+- Add Purchase Button in Navbar
+- Add button to Argon Online Builder
+- Small adjustments
+
 ## [1.2.0] 2020-02-13
 
 - UPDATE: Folders structure change
